@@ -34,11 +34,39 @@ button.duration {
   font-weight: 600;
 }
 
+/* footer */
+
+footer.footer {
+  background-color: black !important;
+}
+
 .footer_news img {
   width: 100px !important;
   height: 100px;
 }
 
+footer span.social_icons i {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px !important;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+footer span.social_icons .fa-facebook {
+  background-color: darkblue;
+}
+footer span.social_icons .fa-twitter {
+  background-color: skyblue;
+}
+footer span.social_icons .fa-google-plus-official {
+  background-color: orange;
+}
+footer span.social_icons .fa-instagram {
+  background-color: pink;
+}
 .footer_news_content p {
   color: white;
 }
