@@ -54,6 +54,19 @@ button.duration {
   width: 100% !important;
 }
 
+.carousel_content {
+  position: absolute;
+}
+
+.carousel_content .main-text h1{
+  color: white;
+  font-family: 'playfair display', sans-serif;
+  font-size: 25px;
+}
+.carousel_content .main-text p{
+  bac
+}
+
 /* main */
 .main_news_content h1 {
   font-size: 25px;
@@ -65,13 +78,15 @@ button.duration {
   border: 1px solid white;
   background-color: white !important;
   padding: 50px 0px !important;
-  margin: 10px;
+  margin: 0px 10px;
   max-width: 350px !important;
 }
 
 /* whats_rising */
 .whats_rising {
-  padding: 0px !important;
+  padding: 10px !important;
+  max-width: 350px !important;
+  margin: 0px 15px;
 }
 .whats_rising .news_1 {
   position: relative;
@@ -91,6 +106,10 @@ button.duration {
 }
 
 /* whats_hot */
+.whats_hot {
+  max-width: 480px;
+  margin: 0px 10px;
+}
 .whats_hot .hot_news {
   position: relative;
   height: 500px;
