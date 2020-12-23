@@ -55,6 +55,11 @@ button.duration {
   left: 10px;
 }
 
+.whats_rising .news_1 img {
+  height: 300px;
+  width: 300px;
+}
+
 /* whats_hot */
 .whats_hot .hot_news {
   position: relative;
@@ -63,6 +68,11 @@ button.duration {
   position: absolute;
   bottom: 130px;
   left: 10px;
+}
+
+.hot_news img {
+  height: 400px;
+  width: 400px;
 }
 
 .news_highlight .title.d-flex.flex-column.mb-3 {
