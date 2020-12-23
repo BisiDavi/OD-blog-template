@@ -6,6 +6,7 @@ ul li {
 
 li a {
   color: white;
+  text-decoration: none;
 }
 
 a,
@@ -19,4 +20,37 @@ h6,
 span,
 button {
   font-family: 'Montserrat', sans-serif;
+}
+
+button.duration {
+  top: 10px;
+  right: 30px;
+}
+
+.videoclip {
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  font-weight: 600;
+}
+
+.footer_news img {
+  width: 100px !important;
+  height: 100px;
+}
+
+.footer_news_content p {
+  color: white;
+}
+
+.footer-links {
+  padding: 0px;
+  margin: 0px;
+}
+
+footer form button.btn.btn-primary.bg-primary {
+  height: 50px !important;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-left: -4px;
 }
