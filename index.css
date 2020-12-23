@@ -53,8 +53,13 @@ button.duration {
 }
 
 /* whats_rising */
+.whats_rising {
+  padding: 0px !important;
+}
 .whats_rising .news_1 {
   position: relative;
+  padding: 0px !important;
+  height: 400px;
 }
 
 .whats_rising .news_1 button {
@@ -79,8 +84,8 @@ button.duration {
 }
 
 .hot_news img {
-  height: 500px;
-  width: 500px;
+  height: 400px !important;
+  width: 500px !important;
 }
 
 .news_highlight .title.d-flex.flex-column.mb-3 {
