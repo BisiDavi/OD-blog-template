@@ -38,6 +38,14 @@ button.duration {
   font-weight: 600;
 }
 
+/* slider */
+.carousel-1 {
+  background-image: url('./images/Mask.png');
+  background-size: cover;
+  height: 650px !important;
+  width: 100% !important;
+}
+
 /* main */
 .main_news_content h1 {
   font-size: 25px;
