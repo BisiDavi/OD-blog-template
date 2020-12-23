@@ -103,7 +103,7 @@ button.duration {
 
 .hot_news img {
   height: 400px !important;
-  width: 500px !important;
+  width: 100% !important;
 }
 
 .news_highlight .title.d-flex.flex-column.mb-3 {
