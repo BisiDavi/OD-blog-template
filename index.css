@@ -79,8 +79,8 @@ button.duration {
 }
 
 .hot_news img {
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
 }
 
 .news_highlight .title.d-flex.flex-column.mb-3 {
@@ -159,3 +159,5 @@ footer .col-lg-4 {
 footer input.form-control {
   width: 200px;
 }
+
+/* https://www.figma.com/file/MFkxfcvF5baGOWu03ZE8yo/OD-Blog?node-id=0%3A1 */
