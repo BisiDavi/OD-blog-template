@@ -1,19 +1,28 @@
+* {
+  box-sizing: border-box !important;
+}
+
 ul li {
   list-style: none;
   margin: 0px 5px;
   color: white;
 }
 
-body.container-fluid {
+img {
+  cursor: pointer;
+}
+
+body {
   background: rgba(0, 0, 0, 0.03);
 }
 
 main.container-fluid {
-  padding: 60px;
+  padding: 25px 60px;
 }
 
 a:hover {
   text-decoration: none !important;
+  color: red;
 }
 
 li a {
@@ -39,25 +48,58 @@ button.duration {
   right: 30px;
 }
 
+.controls div {
+  height: 35px;
+}
+
+card.video {
+  cursor: pointer;
+  height: 200px !important;
+}
+
+.videos_container {
+  height: 200px;
+}
+
 .videoclip {
   position: absolute;
   bottom: 0px;
   color: white;
   font-weight: 600;
+  z-index: 300;
+}
+
+.videos .img-overlay {
+  position: absolute;
+  height: 200px;
+  bottom: 0px;
+  width: 90%;
+  z-index: 100;
+  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.01) 100%);
 }
 
 /* slider */
 .carousel-1 {
-  background-image: url('./images/Mask.png');
-  background-size: cover;
+  background-image: url('./images/Mask.png') !important;
+  background-size: cover !important;
   height: 650px !important;
   width: 100% !important;
+  z-index: 0;
+}
+
+.carousel-1 .overlay {
+  position: absolute;
+  bottom: 0px;
+  z-index: 100;
   background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.01) 100%);
+  width: 100%;
+  height: 400px;
 }
 
 .carousel_content {
   position: absolute;
   bottom: 0px;
+  z-index: 200;
   padding: 0px 120px !important;
 }
 
@@ -93,6 +135,16 @@ button.duration {
   color: white;
   font-family: 'Playfair Display', serif;
   font-size: 70px;
+}
+
+/* ads */
+.ads {
+  background-image: url('./images/ad.png');
+  cursor: pointer;
+  height: 70px !important;
+  width: 55% !important;
+  margin-top: 30px !important;
+  margin-bottom: 0px !important;
 }
 
 /* main */
@@ -135,7 +187,7 @@ button.duration {
 
 /* whats_hot */
 .whats_hot {
-  max-width: 480px;
+  max-width: 500px;
   margin: 0px 10px;
 }
 .whats_hot .hot_news {
@@ -168,13 +220,15 @@ footer.footer {
   background-color: black !important;
 }
 
-.footer_news img {
-  width: 100px !important;
+.footer_news .rounded-circle {
+  width: 150px !important;
   height: 100px;
+  margin: auto;
 }
 
 .footer_news .news_text {
   font-size: 14px !important;
+  cursor: pointer;
 }
 
 .footer_news .text-muted {
