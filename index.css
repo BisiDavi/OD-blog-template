@@ -4,6 +4,10 @@ ul li {
   color: white;
 }
 
+a:hover {
+  text-decoration: none !important;
+}
+
 li a {
   color: white;
   text-decoration: none;
@@ -32,6 +36,16 @@ button.duration {
   bottom: 0px;
   color: white;
   font-weight: 600;
+}
+
+/* main */
+.news_highlight .title.d-flex.flex-column.mb-3 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.news_highlight .author.d-flex p {
+  font-size: 10px;
 }
 
 /* footer */
@@ -63,6 +77,7 @@ footer span.social_icons i {
   color: white;
   border-radius: 50%;
   text-align: center;
+  cursor: pointer;
 }
 
 footer span.social_icons .fa-facebook {
