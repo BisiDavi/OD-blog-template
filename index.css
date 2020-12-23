@@ -4,6 +4,14 @@ ul li {
   color: white;
 }
 
+body.container-fluid {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+main.container-fluid {
+  padding: 60px;
+}
+
 a:hover {
   text-decoration: none !important;
 }
@@ -52,6 +60,15 @@ button.duration {
   font-weight: 1000;
 }
 
+/* whats_new */
+.whats_new {
+  border: 1px solid white;
+  background-color: white !important;
+  padding: 50px 0px !important;
+  margin: 10px;
+  max-width: 350px !important;
+}
+
 /* whats_rising */
 .whats_rising {
   padding: 0px !important;
@@ -76,6 +93,7 @@ button.duration {
 /* whats_hot */
 .whats_hot .hot_news {
   position: relative;
+  height: 500px;
 }
 .whats_hot .hot_news button {
   position: absolute;
