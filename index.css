@@ -92,3 +92,11 @@ footer form button.btn.btn-primary.bg-primary {
   border-bottom-left-radius: 0px;
   margin-left: -4px;
 }
+
+footer .col-lg-4 {
+  padding-left: 70px;
+}
+
+footer input.form-control {
+  width: 200px;
+}
