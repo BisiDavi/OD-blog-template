@@ -136,9 +136,9 @@ button.duration {
 
 card.video {
   cursor: pointer;
-  max-width: 300px !important;
-  margin: 10px !important;
-  height: 209.78px;
+    max-width: 290px !important;
+    margin: 10px !important;
+    height: 209.78px;
 }
 
 .videoclip {
@@ -150,17 +150,19 @@ card.video {
 }
 
 .video img.card-img-top {
-  width: 300.29px;
+  max-width: 290px !important;
+    margin: 0px 10px;
   height: 209.78px;
 }
 
 .videos .img-overlay {
-  position: absolute;
-  bottom: 0px;
-  width: 300.29px;
-  height: 209.78px;
-  z-index: 0;
-  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.01) 100%);
+      position: absolute;
+    bottom: 0px;
+    width: 290px;
+    height: 209.78px;
+    z-index: 0;
+    margin: 0px 10px;
+    background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.01) 100%);
 }
 /* slider */
 .carousel {
