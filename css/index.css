@@ -124,7 +124,7 @@ nav .site-title {
 
 button.duration {
   top: 10px;
-  right: 30px;
+  right: 10px;
 }
 
 .controls div {
@@ -133,8 +133,8 @@ button.duration {
 
 card.video {
   cursor: pointer;
-  width: 300.29px;
-  margin: 0px;
+  max-width: 300px !important;
+  margin: 10px !important;
   height: 209.78px;
 }
 
