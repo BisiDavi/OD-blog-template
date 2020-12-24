@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
@@ -39,8 +43,8 @@
   </head>
   <body>
     <header class="container-fluid">
-      <div class="row secondary-menu d-flex justify-content-between">
-        <ul class="menu-links d-flex">
+      <div class="row secondary-menu d-flex justify-content-between px-4">
+        <ul class="menu-links d-flex pl-4">
           <li><a href="#News">News</a></li>
           <li><a href="#Lifestyle">Lifestyle</a></li>
           <li><a href="#Advertise">Advertise</a></li>
@@ -75,9 +79,12 @@
         </ul>
       </div>
     </header>
-    <nav class="container-fluid bg-white">
+    <nav
+      id="nav"
+      class="nav container-fluid animate__animated animate__fadeInDown bg-white"
+    >
       <div
-        class="row primary-menu d-flex bg-white justify-content-between px-4 py-0 w-100"
+        class="row primary-menu d-flex bg-white justify-content-between px-5 py-0 w-100"
       >
         <h1 class="site-title font-weight-bold pl-4 my-0">OD Blog</h1>
         <span class="search"
@@ -964,6 +971,7 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+    <script src="./js/nav.js" />
     <!-- <script type="text/javascript">
       $(document).ready(function () {
         $('.slider').slick({
