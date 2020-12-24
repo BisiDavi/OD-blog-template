@@ -41,7 +41,7 @@ header .menu-links a {
 }
 
 header.social_icon-links {
-    height: 32px;
+  height: 32px;
 }
 
 header ul.social_icon-links li {
@@ -78,7 +78,25 @@ button {
 }
 
 nav {
-  height: 32px !important;
+  height: 48px !important;
+}
+
+nav .row {
+  height: 48px;
+  align-items: center;
+}
+
+nav span.search {
+  height: 30px;
+}
+
+nav .site-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  color: #171821;
+  line-height: 34.13px;
 }
 
 button.duration {
@@ -145,15 +163,30 @@ card.video {
 }
 
 .carousel_news p {
-  color: rgb(209, 202, 202);
-  font-size: 13px;
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  color: #cccccc;
 }
 
 .carousel_news h4 {
   color: white;
-  font-size: 15px;
-  font-weight: 800;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.carousel_news span p {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #cccccc;
 }
 
 .main-text .text {
@@ -161,21 +194,34 @@ card.video {
 }
 
 .main-text p {
-  width: 100px;
+  width: 108px;
+  height: 20.75px;
   padding: 5px;
   background-color: black;
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #e6e6e6;
 }
 
 .content-lastest-news img {
-  width: 40%;
-  height: 40%;
+  width: 87.5px !important;
+  height: 87.5px !important;
   margin: 10px;
+  border-radius: 15px !important;
 }
 
 .carousel_content .main-text h1 {
   color: white;
   font-family: 'Playfair Display', serif;
-  font-size: 70px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 96.4%;
 }
 
 /* ads */
