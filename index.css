@@ -20,6 +20,18 @@ main.container-fluid {
   padding: 25px 60px;
 }
 
+ul.menu-links li {
+  margin-top: 12px;
+}
+
+header ul.social_icon-links li {
+  margin-top: 12px;
+}
+
+header .row.secondary-menu {
+  background: black !important;
+}
+
 a:hover {
   text-decoration: none !important;
   color: red;
