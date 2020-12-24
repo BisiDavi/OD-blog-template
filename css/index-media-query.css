@@ -1,0 +1,31 @@
+@media (max-width: 480px) {
+  header {
+    width: 100%;
+  }
+  .site-lang-english,
+  .toggle-themes {
+    display: flex !important;
+  }
+  header ul li {
+    display: none !important;
+  }
+
+  header .row.secondary-menu ul {
+    padding: 0px !important;
+    margin: 0px 20px !important;
+  }
+
+  /* nav */
+  nav.nav {
+    width: 100%;
+  }
+
+  /* slider */
+  .slider .carousel .carousel_content {
+    width: 100% !important;
+  }
+
+  .content-latestnews-group {
+    display: none !important;
+  }
+}
