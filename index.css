@@ -208,6 +208,12 @@ card.video {
   color: #e6e6e6;
 }
 
+.content-lastest-news.d-flex {
+  animation-name: smart_animate;
+  animation-duration: 50ms;
+  animation-timing-function: ease-out;
+}
+
 .content-lastest-news img {
   width: 87.5px !important;
   height: 87.5px !important;
@@ -228,10 +234,10 @@ card.video {
 .ads {
   background-image: url('./images/ad.png');
   cursor: pointer;
-  height: 70px !important;
-  width: 55% !important;
   margin-top: 30px !important;
   margin-bottom: 0px !important;
+  width: 728px;
+  height: 90px;
 }
 
 /* main */
