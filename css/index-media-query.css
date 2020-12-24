@@ -21,11 +21,92 @@
   }
 
   /* slider */
+  .slider {
+    width: 500px !important;
+    /* max-width: 1400px !important; */
+    height: 400px;
+    margin-top: 80px !important;
+  }
+
   .slider .carousel .carousel_content {
-    width: 100% !important;
+    bottom: 10px !important;
+    left: 140px;
+    padding: 0px !important;
   }
 
   .content-latestnews-group {
     display: none !important;
+  }
+
+  /* carousel */
+  .carousel.carousel-1.position-relative {
+    position: absolute !important;
+    width: 580px !important;
+    height: 400px !important;
+    left: -80px;
+  }
+  .main-text h1.text-white {
+    font-size: 50px !important;
+    line-height: 130%;
+  }
+
+  .slider .overlay {
+    display: none;
+  }
+
+  /* main */
+  main.container-fluid {
+    padding: 0px;
+  }
+
+  .ads {
+    display: none;
+  }
+
+  /* video */
+  .videos_container {
+    flex-direction: column;
+  }
+
+  /* article what's- */
+  .mobile.news.d-none {
+    display: flex !important;
+    background: #e6e6e6 !important;
+    width: 80% !important;
+    margin: 10px auto;
+  }
+
+  ul#pills-tab {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 40px !important;
+    align-content: center;
+    align-items: center;
+    width: 400px !important;
+    /* padding: 10px !important; */
+  }
+
+  .mobile .nav li.nav-item {
+    width: 120px !important;
+    font-size: 12px;
+    padding: 0px !important;
+    margin: 0px !important;
+    height: 40px;
+    font-weight: bold;
+    align-content: center !important;
+    align-items: center;
+    display: flex;
+  }
+
+  .mobile ul.nav a {
+    color: black !important;
+    font-size: 10px;
+    font-family: 'Montserrat' !important;
+  }
+
+  .nav-pills .nav-link.active {
+    background: white !important;
+    color: black !important;
   }
 }

@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -94,58 +97,57 @@
     </nav>
     <div class="slider">
       <div class="carousel carousel-1 position-relative">
-        <div class="overlay">
-          <div class="carousel_content">
-            <span class="main-text">
-              <h1 class="text-white">Best game of</h1>
-              <h1 class="text-white text">2020</h1>
-              <p class="px-1">JOHN DOE</p>
-            </span>
-            <div class="content-latestnews-group d-flex justify-content-around">
-              <div class="content-lastest-news d-flex">
-                <img src="./images/Rectangle6.png" alt="carousel news" />
-                <div class="carousel_news">
-                  <span>
-                    <h4>The 13 horniest TV moment of 2020</h4>
-                    <p>5 min read</p>
-                  </span>
-                  <p>
-                    You don't need us to tell you that 2020 was horny as heck.
-                    We spent months inside without human contact
-                  </p>
-                </div>
+        <div class="overlay"></div>
+        <div class="carousel_content">
+          <span class="main-text">
+            <h1 class="text-white">Best game of</h1>
+            <h1 class="text-white text">2020</h1>
+            <p class="px-1">JOHN DOE</p>
+          </span>
+          <div class="content-latestnews-group d-flex justify-content-around">
+            <div class="content-lastest-news d-flex">
+              <img src="./images/Rectangle6.png" alt="carousel news" />
+              <div class="carousel_news">
+                <span>
+                  <h4>The 13 horniest TV moment of 2020</h4>
+                  <p>5 min read</p>
+                </span>
+                <p>
+                  You don't need us to tell you that 2020 was horny as heck. We
+                  spent months inside without human contact
+                </p>
               </div>
-              <div class="content-lastest-news d-flex">
-                <img src="./images/Rectangle5.png" alt="carousel news" />
-                <div class="carousel_news">
-                  <span>
-                    <h4>
-                      'Cyberpunk 2077' is a wondrous creation trailed by a
-                      mil-long..
-                    </h4>
-                    <p>8 min read</p>
-                  </span>
-                  <p>
-                    You don't need us to tell you that 2020 was horny as heck.
-                    We spent months inside without human contact
-                  </p>
-                </div>
+            </div>
+            <div class="content-lastest-news d-flex">
+              <img src="./images/Rectangle5.png" alt="carousel news" />
+              <div class="carousel_news">
+                <span>
+                  <h4>
+                    'Cyberpunk 2077' is a wondrous creation trailed by a
+                    mil-long..
+                  </h4>
+                  <p>8 min read</p>
+                </span>
+                <p>
+                  You don't need us to tell you that 2020 was horny as heck. We
+                  spent months inside without human contact
+                </p>
               </div>
-              <div class="content-lastest-news d-flex">
-                <img src="./images/Rectangle7.png" alt="carousel news" />
-                <div class="carousel_news">
-                  <span>
-                    <h4>
-                      Taylor Swift just dropped a banger remix of 'willow' for
-                      h...
-                    </h4>
-                    <p>6 min read</p>
-                  </span>
-                  <p>
-                    You don't need us to tell you that 2020 was horny as heck.
-                    We spent months inside without human contact
-                  </p>
-                </div>
+            </div>
+            <div class="content-lastest-news d-flex">
+              <img src="./images/Rectangle7.png" alt="carousel news" />
+              <div class="carousel_news">
+                <span>
+                  <h4>
+                    Taylor Swift just dropped a banger remix of 'willow' for
+                    h...
+                  </h4>
+                  <p>6 min read</p>
+                </span>
+                <p>
+                  You don't need us to tell you that 2020 was horny as heck. We
+                  spent months inside without human contact
+                </p>
               </div>
             </div>
           </div>
@@ -273,7 +275,619 @@
 
     <main class="container-fluid">
       <div class="row main_news_content">
-        <div class="whats_new bg-white col-lg-3 px-1">
+        <div class="mobile news d-none">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                id="pills-whatsnews-tab"
+                data-toggle="pill"
+                href="#pills-whatsnews"
+                role="tab"
+                aria-controls="pills-whatsnews"
+                aria-selected="true"
+                >WHAT'S NEW</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="pills-whatsrising-tab"
+                data-toggle="pill"
+                href="#pills-whatsrising"
+                role="tab"
+                aria-controls="pills-whatsrising"
+                aria-selected="false"
+                >WHAT'S RISING</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="pills-whatshot-tab"
+                data-toggle="pill"
+                href="#pills-whatshot"
+                role="tab"
+                aria-controls="pills-whatshot"
+                aria-selected="false"
+                >WHAT'S HOT</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div
+          class="tab-content d-xl-none d-lg-none d-xl-block"
+          id="pills-tabContent"
+        >
+          <div
+            id="pills-whatsnews"
+            role="tabpanel"
+            aria-labelledby="pills-whatsnews-tab"
+            class="whats_new bg-white col-sm-12 col-xs-12 col-lg-3 px-1 tab-pane fade show active"
+          >
+            <h1 class="text-center">WHAT'S NEW</h1>
+            <div class="news_highlight news_1 d-flex align-items-center mx-3">
+              <div class="thumbnail">
+                <img
+                  src="./images/Ellipse.png"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>Apple now sells yoga mats and bike helmets</h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div
+              class="news_highlight news_2 d-flex justify-content-around align-items-center mx-3"
+            >
+              <div class="thumbnail">
+                <img
+                  src="./images/Ellipse3.jpg"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>
+                  5 behind-the-scenes revelations from the 'FUN RUN' episode of
+                  'The Office'
+                </h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div
+              class="news_highlight news_3 d-flex justify-content-around align-items-center mx-3 my-0"
+            >
+              <div class="thumbnail">
+                <img
+                  src="./images/Ellipse1.jpg"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>
+                  Santa clause can give you directions in Waze these holidays
+                </h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div
+              class="news_highlight news_4 d-flex justify-content-around align-items-center mx-3"
+            >
+              <div class="thumbnail">
+                <img
+                  src="./images/ellipses2.jpg"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>
+                  Uber adds option to send packages just in time for the holiday
+                </h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div class="news_highlight news_1 d-flex align-items-center mx-3">
+              <div class="thumbnail">
+                <img
+                  src="./images/Ellipse.png"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>Apple now sells yoga mats and bike helmets</h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div
+              class="news_highlight news_2 d-flex justify-content-around align-items-center mx-3"
+            >
+              <div class="thumbnail">
+                <img
+                  src="./images/Ellipse3.jpg"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>
+                  5 behind-the-scenes revelations from the 'FUN RUN' episode of
+                  'The Office'
+                </h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div
+              class="news_highlight news_3 d-flex justify-content-around align-items-center mx-3 my-0"
+            >
+              <div class="thumbnail">
+                <img
+                  src="./images/Ellipse1.jpg"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>
+                  Santa clause can give you directions in Waze these holidays
+                </h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div
+              class="news_highlight news_4 d-flex justify-content-around align-items-center mx-3"
+            >
+              <div class="thumbnail">
+                <img
+                  src="./images/ellipses2.jpg"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>
+                  Uber adds option to send packages just in time for the holiday
+                </h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div class="news_highlight news_1 d-flex align-items-center mx-3">
+              <div class="thumbnail">
+                <img
+                  src="./images/Ellipse.png"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>Apple now sells yoga mats and bike helmets</h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div
+              class="news_highlight news_2 d-flex justify-content-around align-items-center mx-3"
+            >
+              <div class="thumbnail">
+                <img
+                  src="./images/Ellipse3.jpg"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>
+                  5 behind-the-scenes revelations from the 'FUN RUN' episode of
+                  'The Office'
+                </h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div
+              class="news_highlight news_3 d-flex justify-content-around align-items-center mx-3 my-0"
+            >
+              <div class="thumbnail">
+                <img
+                  src="./images/Ellipse1.jpg"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>
+                  Santa clause can give you directions in Waze these holidays
+                </h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div
+              class="news_highlight news_4 d-flex justify-content-around align-items-center mx-3"
+            >
+              <div class="thumbnail">
+                <img
+                  src="./images/ellipses2.jpg"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>
+                  Uber adds option to send packages just in time for the holiday
+                </h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div class="news_highlight news_1 d-flex align-items-center mx-3">
+              <div class="thumbnail">
+                <img
+                  src="./images/Ellipse.png"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>Apple now sells yoga mats and bike helmets</h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div
+              class="news_highlight news_2 d-flex justify-content-around align-items-center mx-3"
+            >
+              <div class="thumbnail">
+                <img
+                  src="./images/Ellipse3.jpg"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>
+                  5 behind-the-scenes revelations from the 'FUN RUN' episode of
+                  'The Office'
+                </h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div
+              class="news_highlight news_3 d-flex justify-content-around align-items-center mx-3 my-0"
+            >
+              <div class="thumbnail">
+                <img
+                  src="./images/Ellipse1.jpg"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>
+                  Santa clause can give you directions in Waze these holidays
+                </h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+            <div
+              class="news_highlight news_4 d-flex justify-content-around align-items-center mx-3"
+            >
+              <div class="thumbnail">
+                <img
+                  src="./images/ellipses2.jpg"
+                  class="rounded-circle"
+                  alt="news-img"
+                />
+              </div>
+              <div class="title d-flex flex-column mb-1">
+                <h5>
+                  Uber adds option to send packages just in time for the holiday
+                </h5>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            id="pills-whatsrising"
+            role="tabpanel"
+            aria-labelledby="pills-whatsrising-tab"
+            class="whats_rising bg-white col-sm-12 col-xs-12 col-lg-3 px-1 tab-pane fade"
+          >
+            <h1 class="text-center my-2">WHAT'S RISING</h1>
+            <div class="news_1 d-flex flex-column m-2">
+              <div class="position-relative">
+                <img src="./images/base5.jpg" alt="image placeholder" />
+                <button
+                  type="button"
+                  class="btn btn-primary my-2 w-25 text-white px-1"
+                >
+                  WORLD
+                </button>
+              </div>
+              <span class="title d-flex flex-column">
+                <p>
+                  Marvel announces four new Disney+ series including 'I Am
+                  Groot' and 'Secret Invasion'
+                </p>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </span>
+            </div>
+            <div class="news_1 d-flex flex-column m-2">
+              <div class="position-relative">
+                <img src="./images/base1.jpg" alt="image placeholder" />
+                <button
+                  type="button"
+                  class="btn btn-primary my-2 w-25 text-white px-1"
+                >
+                  WORLD
+                </button>
+              </div>
+              <span class="title d-flex flex-column">
+                <p>
+                  New Star Wars shows and movies deliver more mystery that fans
+                  can handle
+                </p>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </span>
+            </div>
+            <div class="news_1 d-flex flex-column m-2">
+              <div class="position-relative">
+                <img src="./images/base2.jpg" alt="image placeholder" />
+                <button
+                  type="button"
+                  class="btn btn-primary my-2 w-25 text-white px-1"
+                >
+                  WORLD
+                </button>
+              </div>
+              <span class="title d-flex flex-column">
+                <p>5G is getting faster, but the U.S. is lagging behind</p>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </span>
+            </div>
+            <div class="news_1 d-flex flex-column m-2">
+              <div class="position-relative">
+                <img src="./images/base3.jpg" alt="image placeholder" />
+                <button
+                  type="button"
+                  class="btn btn-primary my-2 w-25 text-white px-1"
+                >
+                  WORLD
+                </button>
+              </div>
+              <span class="title d-flex flex-column">
+                <p>
+                  Hackers are targeting kindergartens for profit, warns
+                  government
+                </p>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </span>
+            </div>
+            <div class="news_1 d-flex flex-column m-2">
+              <div class="position-relative">
+                <img src="./images/base4.jpg" alt="image placeholder" />
+                <button
+                  type="button"
+                  class="btn btn-primary my-2 w-25 text-white px-1"
+                >
+                  WORLD
+                </button>
+              </div>
+              <span class="title d-flex flex-column">
+                <p>
+                  Facebook illegally maintains a monopoly and a breakup is on
+                  the table, says FTC lawsuit
+                </p>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </span>
+            </div>
+          </div>
+          <div
+            id="pills-whatshot"
+            role="tabpanel"
+            aria-labelledby="pills-whatshot-tab"
+            class="whats_hot bg-white col-sm-12 col-xs-12 col-lg-5 tab-pane fade"
+          >
+            <h1 class="text-center my-2">WHAT'S HOT</h1>
+            <div class="hot_news news_1 d-flex flex-column mx-2">
+              <div class="position-relative">
+                <img src="./images/Rectangle3.png" alt="image placeholder" />
+                <button
+                  type="button"
+                  class="btn btn-success my-2 w-25 text-white px-1"
+                >
+                  LIFESTYLE
+                </button>
+              </div>
+              <span class="title d-flex flex-column">
+                <p>Marvel's Fantastic Four are coming to film again</p>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </span>
+            </div>
+            <div class="hot_news news_1 d-flex flex-column mx-2">
+              <div class="position-relative">
+                <img src="./images/Rectangle2.png" alt="image placeholder" />
+                <button
+                  type="button"
+                  class="btn btn-success my-2 w-25 text-white px-1"
+                >
+                  LIFESTYLE
+                </button>
+              </div>
+              <span class="title d-flex flex-column">
+                <p>
+                  Republicans and Democrats actually agree on something:Breaking
+                  up Facebook
+                </p>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </span>
+            </div>
+            <div class="hot_news news_1 d-flex flex-column mx-2">
+              <div class="position-relative">
+                <img src="./images/Rectangle1.png" alt="image placeholder" />
+                <button
+                  type="button"
+                  class="btn btn-success my-2 w-25 text-white px-1"
+                >
+                  LIFESTYLE
+                </button>
+              </div>
+              <span class="title d-flex flex-column">
+                <p>
+                  The good, bad, and ugly from the UN's stark climate report
+                </p>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </span>
+            </div>
+            <div class="hot_news news_1 d-flex flex-column mx-2">
+              <div class="position-relative">
+                <img src="./images/Rectangle4.png" alt="image placeholder" />
+                <button
+                  type="button"
+                  class="btn btn-success my-2 w-25 text-white px-1"
+                >
+                  LIFESTYLE
+                </button>
+              </div>
+              <span class="title d-flex flex-column">
+                <p>
+                  Netflix's 'Fate: The Winx Saga' teaser sends you off to teen
+                  fairy school
+                </p>
+                <span class="author d-flex">
+                  <p class="text-muted">
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
+                  </p>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="whats_new bg-white col-sm-12 col-xs-12 col-lg-3 px-1 d-none d-lg-block"
+        >
           <h1 class="text-center">WHAT'S NEW</h1>
           <div class="news_highlight news_1 d-flex align-items-center mx-3">
             <div class="thumbnail">
@@ -600,7 +1214,9 @@
             </div>
           </div>
         </div>
-        <div class="whats_rising bg-white col-lg-3 px-1">
+        <div
+          class="whats_rising bg-white col-sm-12 col-xs-12 col-lg-3 px-1 d-none d-lg-block"
+        >
           <h1 class="text-center my-2">WHAT'S RISING</h1>
           <div class="news_1 d-flex flex-column m-2">
             <div class="position-relative">
@@ -709,7 +1325,9 @@
             </span>
           </div>
         </div>
-        <div class="whats_hot bg-white col-lg-5">
+        <div
+          class="whats_hot bg-white col-sm-12 col-xs-12 col-lg-5 d-none d-lg-block"
+        >
           <h1 class="text-center my-2">WHAT'S HOT</h1>
           <div class="hot_news news_1 d-flex flex-column mx-2">
             <div class="position-relative">
@@ -962,6 +1580,21 @@
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
     ></script>
     <!-- <script src="./js/nav.js" type="text/javascript"></script> -->
   </body>
