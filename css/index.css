@@ -39,6 +39,9 @@ header ul.menu-links.d-flex {
 
 header {
   height: 32px !important;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
 }
 
 header .menu-links a {
@@ -90,7 +93,7 @@ nav {
 nav.nav {
   z-index: 1000;
   top: 30px !important;
-  position: absolute;
+  position: fixed;
 }
 
 nav.nav.visible {
@@ -272,7 +275,7 @@ card.video {
 }
 
 main .row.main_news_content .bg-white {
-  height: 2095px !important;
+  height: 2040px !important;
 }
 
 main .row.main_news_content h1.text-center {
@@ -293,7 +296,7 @@ main .row.main_news_content h1.text-center {
   background-color: white !important;
   padding: 10px 0px !important;
   margin: 0px 10px;
-  max-width: 350px !important;
+  /* max-width: 350px !important; */
 }
 
 .whats_new img {
@@ -408,7 +411,7 @@ main .whats_rising .title p {
 
 /* whats_hot */
 .whats_hot {
-  max-width: 500px;
+  /* max-width: 500px; */
   margin: 0px 10px;
 }
 .whats_hot .hot_news {

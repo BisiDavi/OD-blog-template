@@ -3,7 +3,7 @@ let scrolled = false;
 
 $(window).scroll(function () {
   if (100 < $(window).scrollTop() && !scrolled) {
-    nav.addClass('visible').animate({ top: '0px' });
+    nav.addClass('visible').animate({ top: '30px' });
     scrolled = true;
   }
   if (100 > $(window).scrollTop() && scrolled) {
