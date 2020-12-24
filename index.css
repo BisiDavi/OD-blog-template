@@ -302,7 +302,18 @@ main .row.main_news_content .bg-white {
 .whats_rising .news_1 button {
   position: absolute;
   bottom: 10px;
+  border-radius: 5px !important;
+  height: 24px;
   left: 10px;
+  width: 64px !important;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  background: #3e3edd !important;
 }
 
 .news_1 .position-relative {
@@ -326,7 +337,16 @@ main .row.main_news_content .bg-white {
 }
 .whats_hot .hot_news button {
   position: absolute;
+  background: #19c22a;
+  width: 77px !important;
+  height: 24px;
+  border-radius: 5px;
   bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  text-transform: uppercase;
   left: 10px;
 }
 
