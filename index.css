@@ -20,8 +20,14 @@ main.container-fluid {
   padding: 25px 60px;
 }
 
+/* nav */
 ul.menu-links li {
   margin-top: 12px;
+}
+
+header .menu-links a {
+  font-size: 14px;
+  margin: 0px 7px;
 }
 
 header ul.social_icon-links li {
