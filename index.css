@@ -345,6 +345,7 @@ main .row.main_news_content .bg-white {
   font-family: 'Montserrat', sans-serif;
   font-size: 10px;
   line-height: 12px;
+  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   left: 10px;
