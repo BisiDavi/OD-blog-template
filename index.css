@@ -153,13 +153,40 @@ card.video {
   font-weight: 1000;
 }
 
+main .row.main_news_content .bg-white {
+  height: 2200px !important;
+}
+
 /* whats_new */
 .whats_new {
   border: 1px solid white;
   background-color: white !important;
-  padding: 50px 0px !important;
+  padding: 10px 0px !important;
   margin: 0px 10px;
   max-width: 350px !important;
+}
+
+.news_highlight h5,
+.whats_rising p,
+.hot_news p {
+  font-size: 15px !important;
+  font-weight: 1000;
+}
+
+.news_highlight p,
+.whats_rising .author p,
+.hot_news .author p {
+  font-size: 0.7em !important;
+  font-weight: 1000;
+}
+
+.news_highlight .title {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.news_highlight .author p {
+  font-size: 10px;
 }
 
 /* whats_rising */
@@ -167,6 +194,11 @@ card.video {
   padding: 10px !important;
   max-width: 350px !important;
   margin: 0px 15px;
+}
+.whats_rising .title {
+  margin-top: 20px !important;
+  width: 80% !important;
+  margin: auto;
 }
 .whats_rising .news_1 {
   position: relative;
@@ -176,12 +208,17 @@ card.video {
 
 .whats_rising .news_1 button {
   position: absolute;
-  bottom: 130px;
+  bottom: 10px;
   left: 10px;
 }
 
+.news_1 .position-relative {
+  height: 250px !important;
+  width: 100%;
+}
+
 .whats_rising .news_1 img {
-  height: 300px;
+  height: 250px;
   width: 300px;
 }
 
@@ -192,26 +229,35 @@ card.video {
 }
 .whats_hot .hot_news {
   position: relative;
-  height: 500px;
+  /* height: 550px; */
 }
 .whats_hot .hot_news button {
   position: absolute;
-  bottom: 130px;
+  bottom: 10px;
   left: 10px;
 }
 
+.whats_hot .hot_news .position-relative {
+  height: 350px !important;
+  width: 100%;
+}
+
+.whats_hot .hot_news .title {
+  width: 85% !important;
+  margin: 15px auto;
+}
+.whats_hot .hot_news .author p {
+  font-size: 0.7em !important;
+}
+
+.whats_hot .hot_news p {
+  font-size: 1.5em !important;
+  font-weight: 1000 !important;
+}
+
 .hot_news img {
-  height: 400px !important;
+  height: 350px !important;
   width: 100% !important;
-}
-
-.news_highlight .title.d-flex.flex-column.mb-3 {
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-.news_highlight .author.d-flex p {
-  font-size: 10px;
 }
 
 /* footer */
@@ -270,7 +316,7 @@ footer span.social_icons .fa-instagram {
 }
 
 footer form button.btn.btn-primary.bg-primary {
-  height: 50px !important;
+  height: 48px !important;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   margin-left: -4px;
