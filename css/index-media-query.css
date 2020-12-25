@@ -297,7 +297,7 @@
   /* footer */
   footer.footer {
     width: 500px !important;
-    height: 650px !important;
+    height: 100% !important;
   }
   footer.footer .blog {
     order: 2;
