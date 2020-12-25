@@ -60,19 +60,33 @@
 
   /* main */
   main.container-fluid {
-    padding: 0px;
+    padding: 0px !important;
+    width: 500px !important;
+    background-color: white !important;
   }
 
+  main .row.main_news_content .bg-white {
+    height: auto !important;
+  }
   .ads {
     display: none;
   }
+
+  /* whats hot */
+  .hot_news img {
+   height: 300px !important;
+    width: 450px !important;
+  }
+
+  div#pills-whatshot {
+    width: 500px !important;
+}
 
   /* video */
   .videos_container {
     flex-direction: column;
     align-items: center;
-    margin: 30px auto;
-    margin: auto;
+    margin: 30px auto !important;
     justify-content: center;
   }
 
@@ -119,6 +133,8 @@
     background: #e6e6e6 !important;
     width: 80% !important;
     margin: 10px auto;
+    padding: 0px 5px;
+}
   }
 
   ul#pills-tab {
