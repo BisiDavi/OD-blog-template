@@ -1,0 +1,102 @@
+span.hamburger_logo {
+  display: none;
+}
+
+@media (max-width: 560px) {
+  header .row.secondary-menu.active {
+    width: 100% !important;
+    max-width: 530px;
+  }
+  /* hamburger */
+  nav .hamburger_logo {
+    top: 15px;
+    left: 35px;
+    height: 20px;
+  }
+  img#hamburger {
+    height: 20px;
+    margin-top: -10px;
+  }
+  span.hamburger_logo {
+    display: block;
+  }
+  /* The side navigation menu */
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    background: white;
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  /* The navigation menu links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+  #main.active {
+    transition: margin-left 0.5s;
+    overflow: hidden;
+    padding: 20px;
+    width: 100% !important;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+
+  #sidenav ul.menu-links li {
+    border-bottom: 1px solid black;
+    padding: 0px 10px;
+    display: flex !important;
+    width: 100%;
+    align-items: flex-end;
+    height: 50px;
+  }
+
+  #sidenav li.site-name a {
+    font-size: 22px;
+    font-weight: bolder;
+    line-height: 26px;
+  }
+
+  #sidenav li.site-name {
+    margin: 70px 0px;
+  }
+
+  #sidenav ul.menu-links a {
+    color: black !important;
+    font-size: 16px;
+  }
+
+  #sidenav ul.menu-links {
+    height: 120vh !important;
+    background: white;
+    flex-direction: column;
+    width: 50vh;
+  }
+}

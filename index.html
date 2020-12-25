@@ -41,6 +41,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/index-media-query.css" />
     <title>OD Blog</title>
   </head>
@@ -48,14 +49,18 @@
     <header class="container-fluid">
       <div class="row secondary-menu d-flex justify-content-between px-4">
         <ul class="menu-links d-flex pl-4">
-          <li><a href="#News">News</a></li>
-          <li><a href="#Lifestyle">Lifestyle</a></li>
-          <li><a href="#Advertise">Advertise</a></li>
+          <li class="d-none d-lg-none font-weight-bold site-name">
+            <a href="#OD_Blog">OD Blog</a>
+          </li>
+          <li class="hide-sm"><a href="#News">News</a></li>
+          <li class="hide-sm"><a href="#Lifestyle">Lifestyle</a></li>
+          <li class="hide-sm"><a href="#Advertise">Advertise</a></li>
+          <li><a href="#videos">Videos</a></li>
           <li><a href="#savedpost">Saved Posts</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contribute">Contribute</a></li>
-          <li class="site-lang-english">
+          <li class="site-lang-english hide-sm">
             <a href="#english">English (EN) <i class="fa fa-caret-down"></i></a>
           </li>
         </ul>
@@ -82,13 +87,36 @@
         </ul>
       </div>
     </header>
+    <div id="sidenav" class="sidebar">
+      <ul class="menu-links d-flex pl-4">
+          <li class="d-none d-lg-none font-weight-bold site-name">
+            <a href="#OD_Blog">OD Blog</a>
+          </li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#savedpost">Saved Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contribute">Contribute</a></li>
+          </li>
+        </ul>                
+      </div>
+      <div onClick="closeNav()" id="sidebarOverlay" class="sidebar_overlay"></div>         
+    <main id="main" class="page-content">
     <nav
       id="nav"
       class="nav container-fluid animate__animated animate__fadeInDown bg-white"
     >
       <div
-        class="row primary-menu d-flex bg-white justify-content-between px-5 py-0 w-100"
+        class="row primary-menu position-relative d-flex bg-white justify-content-between px-5 py-0 w-100"
       >
+      <span class="hamburger_logo position-absolute" onClick="openNav()">
+        <img
+          src="./images/hamburger.png"
+          alt="menu hamburger"
+          id="hamburger"
+          class="hamburger .d-none .d-sm-block .d-md-none "
+        />
+        </span>
         <h1 class="site-title font-weight-bold pl-4 my-0">OD Blog</h1>
         <span class="search"
           ><i class="fa fa-search" aria-hidden="true"></i
@@ -1518,7 +1546,7 @@
             <li><a href="#What's New">What's Rising</a></li>
           </ul>
         </div>
-        <div class="col-lg-3 d-none d-lg-none">
+        <div class="col-lg-3 hideme_mobile">
           <h6 class="text-white">WHAT'S NEW</h6>
           <div class="footer_news d-flex mt-4">
             <div class="rounded-circle bg-white mr-3"></div>
@@ -1547,7 +1575,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 d-none d-lg-none">
+        <div class="col-lg-4 hideme_mobile">
           <h6 class="text-white">NEWSLETTER</h6>
           <span class="d-flex my-3">
             <i
@@ -1569,6 +1597,7 @@
         </div>
       </div>
     </footer>
+    </main>
     <script
       type="text/javascript"
       src="https://code.jquery.com/jquery-1.11.0.min.js"
@@ -1596,6 +1625,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <!-- <script src="./js/nav.js" type="text/javascript"></script> -->
+    <script src="./js/nav.js" type="text/javascript"></script>
   </body>
 </html>
