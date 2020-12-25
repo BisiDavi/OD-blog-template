@@ -50,6 +50,10 @@
     line-height: 130%;
   }
 
+  main .container-fluid {
+    width: 500px;
+  }
+
   .slider .overlay {
     display: none;
   }
@@ -66,8 +70,49 @@
   /* video */
   .videos_container {
     flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    margin: auto;
+    justify-content: center;
   }
 
+  card.video {
+    width: 450px !important;
+    height: 300px !important;
+    max-width: 450px !important;
+    margin: 10px auto !important;
+  }
+
+  .videos .img-overlay {
+    bottom: -10px;
+    left: -10px !important;
+    width: 450px !important;
+    height: 200px !important;
+    margin: 0px 10px;
+  }
+
+  .video img.card-img-top {
+    align-items: center;
+    max-width: 500px !important;
+    align-content: center;
+    margin: 10px auto;
+    width: 450px !important;
+    height: 300px !important;
+  }
+
+  .video button.btn {
+    top: 20px;
+    right: 15px;
+  }
+  p.card-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.05em;
+  }
   /* article what's- */
   .mobile.news.d-none {
     display: flex !important;
@@ -108,5 +153,17 @@
   .nav-pills .nav-link.active {
     background: white !important;
     color: black !important;
+    margin: 0px !important;
+    border-radius: 0px !important;
+    width: 109px;
+    text-align: center !important;
+    height: 36px;
+  }
+
+  /* footer */
+  footer.footer {
+    background-color: black !important;
+    width: 100% !important;
+    width: 500px !important;
   }
 }
