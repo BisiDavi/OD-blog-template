@@ -75,15 +75,36 @@
 
   div#pills-tabContent {
     width: 100% !important;
-}
+  }
 
   /* whats rising */
+
+  .whats_rising .news_1 {
+    margin: 15px 0px !important;
+    align-items: center;
+    height: 500px !important;
+  }
+
+  .title span.author p.text-muted {
+    font-size: 14px !important;
+  }
+
+  main .whats_rising .title p {
+    font-size: 25px !important;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+
+  .whats_rising img,
+  .whats_rising .position-relative {
+    width: 450px !important;
+    height: 300px !important;
+  }
+
   div#pills-whatsrising {
     max-width: 500px !important;
     align-items: center;
-    display: flex;
-    flex-direction: column;
-}
+  }
 
   /* whats hot */
   .hot_news img {
