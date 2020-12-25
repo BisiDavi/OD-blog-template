@@ -39,7 +39,7 @@ span.hamburger_logo {
     left: 0;
     overflow-x: hidden;
     padding-top: 60px;
-    transition: 0.5s;
+    /* transition: 0.5s; */
     background: white;
   }
 
