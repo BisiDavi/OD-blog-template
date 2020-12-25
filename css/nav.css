@@ -35,7 +35,7 @@ span.hamburger_logo {
     width: 0;
     position: fixed;
     z-index: 50000;
-    top: 0;
+    top: 30px;
     left: 0;
     overflow-x: hidden;
     padding-top: 60px;
@@ -51,7 +51,7 @@ span.hamburger_logo {
     background: rgba(0, 0, 0, 0.52);
     opacity: 1 !important;
     width: 550px;
-    top: 0px;
+    top: 30px;
     transition: 0.5s;
     z-index: 1000;
     position: fixed;
@@ -105,13 +105,13 @@ span.hamburger_logo {
   }
 
   #sidenav li.site-name a {
-    font-size: 22px;
-    font-weight: bolder;
-    line-height: 26px;
+    font-size: 26px !important;
+    font-weight: bolder !important;
+    line-height: 26px !important;
   }
 
   #sidenav li.site-name {
-    margin: 70px 0px;
+    margin: -15px 0px 30px 0px;
   }
 
   #sidenav ul.menu-links a {
@@ -125,9 +125,10 @@ span.hamburger_logo {
   }
 
   #sidenav ul.menu-links {
-    height: 120vh !important;
+    height: 100vh !important;
     background: white;
     flex-direction: column;
     width: 50vh;
+    padding-left: 0px !important;
   }
 }
