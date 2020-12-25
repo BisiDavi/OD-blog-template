@@ -1,10 +1,63 @@
-@media (max-width: 768px){
-  .hideme_mobile{
-    display:none
+@media screen and (max-width: 350px) and (min-width: 320px) {
+  .whats_hot .hot_news p {
+    font-size: 25px !important;
+    text-align: left;
+    width: 95%;
+  }
+
+  span.title.d-flex.flex-column {
+    margin-bottom: 140px !important;
+  }
+
+  .title span.author p.text-muted {
+    margin-top: 20px !important;
+  }
+
+  header#mainHeader {
+    width: 100% !important;
+  }
+  nav#nav {
+    width: 100% !important;
+    padding-right: 30px !important;
+  }
+
+  .carousel.carousel-1.position-relative {
+    max-width: inherit !important;
+  }
+
+  .carousel_content {
+    left: 120px !important;
+  }
+
+  card.video.position-relative.col-lg-3.px-0.mx-0 {
+    width: 450px !important;
+    height: 300px !important;
+  }
+  .videos .img-overlay {
+    /* max-width: 250px !important; */
+    width: 300px !important;
+    height: 250px !important;
+    border-radius: 15px !important;
+  }
+  .video img.card-img-top {
+    max-width: 350px !important;
+    width: 300px !important;
+    height: 250px !important;
+  }
+  .video button.btn {
+    right: 20px;
+  }
+
+  footer.footer.container-fluid.p-5 {
+    height: 100% !important;
+    max-height: 480px !important;
   }
 }
 
 @media (max-width: 480px) {
+  .header.active {
+    width: 530px !important;
+  }
   header {
     width: 100%;
   }
@@ -256,6 +309,12 @@
   footer.footer h6.text-white {
     font-size: 19px;
     font-weight: 500;
+  }
+}
+
+@media (max-width: 768px) {
+  .hideme_mobile {
+    display: none;
   }
 }
 

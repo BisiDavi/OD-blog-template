@@ -3,21 +3,19 @@ let sideNavWidth = 0;
 
 function openNav() {
   const sideNav = document.getElementById('sidenav');
-  const header = document.getElementById("mainHeader");
   sideNavWidth = sideNav.style.width = '250px';
   console.log('sideNavWidth', sideNavWidth);
   document.getElementById('main').style.marginLeft = '250px';
   sideNavWidth.length > 2 ? (navMenuState = true) : null;
 
-
-  switch(navMenuState){
-    case true: 
+  switch (navMenuState) {
+    case true:
       document.getElementById('sidebarOverlay').classList.add('active');
-      document.getElementById("mainHeader").classList('active');
+      document.getElementById('mainHeader').classList.add('active');
       break;
     default:
       break;
-  }  
+  }
 }
 
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
@@ -25,4 +23,5 @@ function closeNav() {
   document.getElementById('sidenav').style.width = '0';
   document.getElementById('main').style.marginLeft = '0';
   document.getElementById('sidebarOverlay').classList.remove('active');
+  document.getElementById('mainHeader').classList.remove('active');
 }
