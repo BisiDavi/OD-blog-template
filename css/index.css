@@ -171,6 +171,7 @@ card.video {
   width: 100% !important;
   z-index: 0;
 }
+
 .carousel-1 {
   background-image: url('../images/Mask.png') !important;
   background-size: cover !important;
