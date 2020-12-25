@@ -67,20 +67,33 @@
 
   main .row.main_news_content .bg-white {
     height: auto !important;
+    width: 500px !important;
   }
   .ads {
     display: none;
   }
 
+  div#pills-tabContent {
+    width: 100% !important;
+}
+
+  /* whats rising */
+  div#pills-whatsrising {
+    max-width: 500px !important;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
   /* whats hot */
   .hot_news img {
-   height: 300px !important;
+    height: 300px !important;
     width: 450px !important;
   }
 
   div#pills-whatshot {
     width: 500px !important;
-}
+  }
 
   /* video */
   .videos_container {
@@ -131,25 +144,30 @@
   .mobile.news.d-none {
     display: flex !important;
     background: #e6e6e6 !important;
-    width: 80% !important;
+    width: 85% !important;
     margin: 10px auto;
-    padding: 0px 5px;
-}
+    height: 40px !important;
+    padding: 0px;
   }
 
   ul#pills-tab {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: auto;
     height: 40px !important;
     align-content: center;
     align-items: center;
-    width: 400px !important;
+    width: 500px !important;
     /* padding: 10px !important; */
   }
 
+  ul#pills-tab a {
+    font-size: 12px !important;
+    font-weight: 700;
+  }
+
   .mobile .nav li.nav-item {
-    width: 120px !important;
+    width: 140px !important;
     font-size: 12px;
     padding: 0px !important;
     margin: 0px !important;
@@ -169,9 +187,11 @@
   .nav-pills .nav-link.active {
     background: white !important;
     color: black !important;
+    font-size: 12px !important;
     margin: 0px !important;
     border-radius: 0px !important;
-    width: 109px;
+    width: 135px;
+    font-weight: bold;
     text-align: center !important;
     height: 36px;
   }
