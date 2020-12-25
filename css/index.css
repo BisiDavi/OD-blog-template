@@ -136,9 +136,9 @@ button.duration {
 
 card.video {
   cursor: pointer;
-    max-width: 290px !important;
-    margin: 10px !important;
-    height: 209.78px;
+  max-width: 290px !important;
+  margin: 10px !important;
+  height: 209.78px;
 }
 
 .videoclip {
@@ -151,18 +151,18 @@ card.video {
 
 .video img.card-img-top {
   max-width: 290px !important;
-    margin: 0px 10px;
+  margin: 0px 10px;
   height: 209.78px;
 }
 
 .videos .img-overlay {
-      position: absolute;
-    bottom: 0px;
-    width: 290px;
-    height: 209.78px;
-    z-index: 0;
-    margin: 0px 10px;
-    background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.01) 100%);
+  position: absolute;
+  bottom: 0px;
+  width: 290px;
+  height: 209.78px;
+  z-index: 0;
+  margin: 0px 10px;
+  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.01) 100%);
 }
 /* slider */
 .carousel {
@@ -466,7 +466,7 @@ main .whats_rising .title p {
 /* footer */
 
 footer.footer {
-  background-color: black !important;
+  background-color: #171821 !important;
 }
 
 .footer_news .rounded-circle {
@@ -500,18 +500,30 @@ footer span.social_icons i {
   text-align: center;
   cursor: pointer;
 }
-
+footer.footer a {
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+footer.footer .blog p {
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 19px;
+    color: #83858F;
+}
 footer span.social_icons .fa-facebook {
-  background-color: darkblue;
+  background-color: #36528c;
 }
 footer span.social_icons .fa-twitter {
-  background-color: skyblue;
+  background-color: #55acee;
 }
 footer span.social_icons .fa-google-plus-official {
-  background-color: orange;
+  background-color: #de4b39;
 }
 footer span.social_icons .fa-instagram {
-  background-color: pink;
+  background-color: #c13282;
 }
 .footer_news_content p {
   color: white;

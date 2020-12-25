@@ -112,18 +112,33 @@
     width: 450px !important;
   }
 
+  .whats_hot .hot_news {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+  }
+
   div#pills-whatshot {
     width: 500px !important;
+  }
+
+  /* row load-more-button */
+  .row.load_more.my-5 {
+    margin: 0px !important;
+    margin-bottom: 60px !important;
   }
 
   /* video */
   .videos_container {
     flex-direction: column;
     align-items: center;
-    margin: 30px auto !important;
+    margin: 0px auto 60px auto !important;
     justify-content: center;
   }
-
+  .videos .title {
+    margin: 0px 25px;
+  }
   card.video {
     width: 450px !important;
     height: 300px !important;
@@ -137,6 +152,7 @@
     width: 450px !important;
     height: 200px !important;
     margin: 0px 10px;
+    border-radius: 10px;
   }
 
   .video img.card-img-top {
@@ -166,7 +182,7 @@
     display: flex !important;
     background: #e6e6e6 !important;
     width: 85% !important;
-    margin: 10px auto;
+    margin: 10px auto 30px auto;
     height: 40px !important;
     padding: 0px;
   }
@@ -188,15 +204,8 @@
   }
 
   .mobile .nav li.nav-item {
-    width: 140px !important;
-    font-size: 12px;
-    padding: 0px !important;
+    width: auto !important;
     margin: 0px !important;
-    height: 40px;
-    font-weight: bold;
-    align-content: center !important;
-    align-items: center;
-    display: flex;
   }
 
   .mobile ul.nav a {
@@ -219,8 +228,18 @@
 
   /* footer */
   footer.footer {
-    background-color: black !important;
-    width: 100% !important;
     width: 500px !important;
+    height: 650px !important;
+  }
+  footer.footer .blog {
+    order: 2;
+    margin-top: 30px;
+  }
+  footer.footer .blog p {
+    font-size: 16px;
+  }
+  footer.footer h6.text-white {
+    font-size: 19px;
+    font-weight: 500;
   }
 }
