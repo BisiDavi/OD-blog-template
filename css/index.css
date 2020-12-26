@@ -20,6 +20,7 @@ img {
 
 body {
   background: rgba(0, 0, 0, 0.03);
+  width: 100% !important;
 }
 
 main.container-fluid {
