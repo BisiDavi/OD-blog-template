@@ -24,6 +24,22 @@ main#main.darkMode {
   background-color: #1b2c3a !important;
 }
 
+main#main.page-content.darkMode {
+  background-color: transparent !important;
+}
+
+/* mobile media-query */
+@media (max-width: 768px) {
+  main#article-section.darkMode {
+    background-color: #1b2c3a !important;
+    margin-top: -10px;
+  }
+  #mobileTab.mobile.darkMode {
+    background: #21374b !important;
+    margin: 20px auto !important;
+  }
+}
+
 /* button */
 .load_more button.darkMode {
   background-color: #2d95e3 !important;
@@ -35,6 +51,19 @@ span.arrow-group.controls.darkMode div {
   background: #21374b;
   border-radius: 5px;
   color: white;
+}
+
+/* mobile tab */
+#mobileTab.mobile.darkMode {
+  background: #21374b !important;
+}
+
+#mobileTab.darkMode a {
+  color: white !important;
+}
+
+#mobileTab.darkMode li.nav-item a.nav-link.active {
+  background-color: #2d95e3 !important;
 }
 
 /* footer form */
