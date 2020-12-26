@@ -28,3 +28,19 @@ main#main.darkMode {
 .load_more button.darkMode {
   background-color: #2d95e3 !important;
 }
+
+/* arrow group */
+span.arrow-group.controls.darkMode div {
+  height: 30px;
+  background: #21374b;
+  border-radius: 5px;
+  color: white;
+}
+
+/* footer form */
+form.darkMode input.footer-form {
+  background: #15202b;
+  border: 1px solid #171821;
+  box-sizing: border-box;
+  border-radius: 5px;
+}

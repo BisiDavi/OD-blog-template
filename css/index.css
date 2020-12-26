@@ -131,7 +131,8 @@ button.duration {
 }
 
 .controls div {
-  height: 35px;
+  height: 30px;
+  background-color: white;
 }
 
 card.video {
@@ -381,7 +382,7 @@ main .whats_rising .title p {
 .whats_rising .news_1 {
   position: relative;
   padding: 0px !important;
-  height: 400px;
+  height: 375px;
 }
 
 .whats_rising .news_1 button {
@@ -478,8 +479,9 @@ footer.footer {
 }
 
 .footer_news .rounded-circle {
-  width: 150px !important;
+  width: 200px !important;
   height: 100px;
+  background-color: white !important;
   margin: auto;
 }
 
