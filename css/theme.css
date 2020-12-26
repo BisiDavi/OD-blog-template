@@ -8,3 +8,23 @@ nav#nav.darkMode .row {
 nav#nav.darkMode h1 {
   color: white !important;
 }
+
+/* main */
+main.darkMode .bg-white p,
+main.darkMode .bg-white h1,
+main.darkMode .bg-white h5 {
+  color: white !important;
+}
+
+main.darkMode .bg-white {
+  background-color: #21374b !important;
+}
+
+main#main.darkMode {
+  background-color: #1b2c3a !important;
+}
+
+/* button */
+.load_more button.darkMode {
+  background-color: #2d95e3 !important;
+}

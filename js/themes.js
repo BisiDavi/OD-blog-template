@@ -8,11 +8,17 @@ const toggleButton = () => {
       document.getElementById('nav').classList.add('darkMode');
       document.getElementById('switchButtonWhite').src =
         './images/switchbuttonBlue.png';
+      document.getElementById('article-section').classList.add('darkMode');
+      document.getElementById('main').classList.add('darkMode');
+      document.getElementById('loadMore').classList.add('darkMode');
       break;
     case false:
       document.getElementById('nav').classList.remove('darkMode');
       document.getElementById('switchButtonWhite').src =
         './images/switch.png';
+      document.getElementById('article-section').classList.remove('darkMode');
+      document.getElementById('main').classList.remove('darkMode');
+      document.getElementById('loadMore').classList.remove('darkMode');
       break;
   }
 };

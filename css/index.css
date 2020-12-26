@@ -281,7 +281,6 @@ main .row.main_news_content .bg-white {
   height: 2040px !important;
 }
 
-
 main .row.main_news_content h1.text-center {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -296,13 +295,11 @@ main .row.main_news_content h1.text-center {
 
 /* whats_new */
 .whats_new {
-  border: 1px solid white;
   background-color: white !important;
   padding: 10px 0px !important;
   margin: 0px 10px;
   /* max-width: 350px !important; */
 }
-
 
 .whats_new img {
   width: 88px !important;
@@ -412,9 +409,17 @@ main .whats_rising .title p {
 .whats_rising .news_1 img {
   height: 210.46px;
   width: 304px;
+  border-radius: 5px !important;
 }
 
 /* whats_hot */
+main#article-section .bg-white {
+  padding-top: 0px !important;
+}
+
+main#article-section .bg-white h1 {
+  margin: 20px !important;
+}
 .whats_hot {
   /* max-width: 500px; */
   margin: 0px 10px;
@@ -510,11 +515,11 @@ footer.footer a {
   text-transform: capitalize;
 }
 footer.footer .blog p {
-    font-family: 'Source Sans Pro';
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 19px;
-    color: #83858F;
+  font-family: 'Source Sans Pro';
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 19px;
+  color: #83858f;
 }
 footer span.social_icons .fa-facebook {
   background-color: #36528c;
