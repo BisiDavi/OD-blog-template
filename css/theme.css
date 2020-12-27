@@ -25,10 +25,6 @@ main#main.darkMode {
   background-color: #1b2c3a !important;
 }
 
-main#main.page-content.darkMode {
-  background-color: transparent !important;
-}
-
 /* mobile media-query */
 @media (max-width: 768px) {
   main#article-section.darkMode,
