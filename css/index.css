@@ -267,18 +267,18 @@ card.video {
   border-radius: 15px !important;
 }
 
-.carousel-1{
-  background-color: rgba(200,150, 100, 0.4)
+.carousel-2 {
+  background-color: rgba(110, 231, 110, 0.4);
 }
-.carousel-2{
-  background-color: rgba(100,100, 200, 0.4)
+.carousel-3 {
+  background-color: rgba(100, 100, 200, 0.4);
 }
 
 .carousel_content .main-text h1 {
   color: white;
   font-family: 'Playfair Display', serif;
   font-style: normal;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   text-align: left;
   font-weight: 900;
   font-size: 90px;
@@ -289,7 +289,7 @@ card.video {
 .ads {
   background-image: url('../images/ad.png');
   cursor: pointer;
-  margin-top: 30px !important;
+  margin-top: 70px !important;
   margin-bottom: 0px !important;
   width: 728px;
   height: 90px;
