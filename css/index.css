@@ -195,6 +195,15 @@ span#arrowGroup {
   margin-top: 10px !important;
 }
 
+img.arrowLeft, img.arrowRight {
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 1;
+}
+
 .carousel-1 {
   background-image: url('../images/Mask.svg') !important;
   background-size: cover !important;

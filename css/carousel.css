@@ -1,3 +1,12 @@
+@media screen and (max-width: 1380px) and (min-width: 1280px) {
+  .carousel-inner a.carousel-control-next {
+    right: 40px;
+  }
+  .carousel-inner a {
+    top: 100px !important;
+  }
+}
+
 @media (min-width: 768px) {
   .carousel_news {
     display: flex;
@@ -46,6 +55,7 @@
   .carousel-inner {
     height: 200px !important;
     display: flex;
+    margin: 0px auto !important;
     width: 2000px !important;
   }
 
