@@ -394,7 +394,7 @@
   }
   div#pills-whatsnews {
     width: 90%;
-    padding-left: 12px !important;
+    padding-left: 20px !important;
   }
   ul#pills-tab {
     display: flex;

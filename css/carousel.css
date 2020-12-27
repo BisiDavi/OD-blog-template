@@ -1,0 +1,69 @@
+.carousel_news {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel_content {
+  padding: 0px 40px !important;
+  height: 1200px;
+  position: absolute;
+  top: 0px !important;
+  width: 1300px !important;
+  z-index: 10000;
+  display: flex;
+}
+
+span.main-text {
+  width: 700px !important;
+  height: 200px !important;
+}
+
+span.main-text {
+  width: 700px !important;
+  height: 200px !important;
+  margin-top: 100px !important;
+}
+
+div#carouselExampleIndicators {
+  width: 1300px !important;
+  display: flex;
+  z-index: 500;
+  position: absolute;
+  top: 350px !important;
+}
+
+ol.carousel-indicators {
+  position: absolute;
+  right: 0;
+  width: 100px;
+  top: 200px;
+  left: -100px;
+  z-index: 15;
+}
+
+.carousel-inner {
+    height: 200px !important;
+    display: flex;
+    width: 2000px !important;
+}
+
+.carousel-item.active {
+  margin-top: 0px;
+  height: 200px;
+  display: flex;
+  width: 1300px !important;
+  position: relative;
+}
+
+.content-lastest-news {
+  height: 200px !important;
+  display: flex !important;
+  width: 400px;
+}
+
+a.carousel-control-prev,
+a.carousel-control-next {
+  height: 40px !important;
+  width: 40px !important;
+  top: 100px;
+}
