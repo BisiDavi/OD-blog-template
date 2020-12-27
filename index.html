@@ -6,6 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta name="viewport" content="width=device-width" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -110,10 +111,10 @@
         >
           <span class="hamburger_logo position-absolute" onClick="openNav()">
             <img
+              id="hamburgerWhite"
               src="./images/hamburger.png"
               alt="menu hamburger"
-              id="hamburger"
-              class="hamburger d-none d-sm-block d-md-none"
+              class="hamburger"
             />
           </span>
           <h1 class="site-title font-weight-bold pl-4 my-0">OD Blog</h1>
@@ -1506,7 +1507,7 @@
             Load more
           </button>
         </div>
-        <div id="showOnLarge" class="row videos  mb-5 d-flex">
+        <div id="showOnLarge" class="row videos mb-5 d-flex">
           <div class="title d-flex justify-content-between col-lg-12">
             <span class="d-flex my-2 video_viewall">
               <h4 class="font-weight-bold video-text">VIDEOS</h4>
@@ -1704,7 +1705,7 @@
             </div>
           </div>
         </div>
-        <div id="showOnMobile" class="row videos  mb-5 d-flex">
+        <div id="showOnMobile" class="row videos mb-5 d-flex">
           <div class="title d-flex justify-content-between col-lg-12">
             <span class="d-flex my-2 video_viewall">
               <h4 class="font-weight-bold video-text">VIDEOS</h4>
@@ -1729,84 +1730,66 @@
               </a>
             </span>
           </div>
-          <div            
-            class="videos_container row col-lg-12 d-flex px-0"                        
-          >           
-                <card class="video position-relative col-lg-3 px-0 mx-0">
-                  <div class="img-overlay"></div>
-                  <img
-                    src="./images/MaskGroup3.png"
-                    class="card-img-top"
-                    alt=""
-                  />
-                  <button
-                    class="btn btn-primary position-absolute text-white duration"
-                  >
-                    ▶ 3:21
-                  </button>
-                  <div class="card-body videoclip">
-                    <p class="card-text">
-                      The 'Selena' cast test their movie and TV Knowledge---
-                      Know Your...
-                    </p>
-                  </div>
-                </card>
-                <card class="video position-relative col-lg-3 px-0 mx-0">
-                  <div class="img-overlay"></div>
-                  <img
-                    src="./images/MaskGroup2.png"
-                    class="card-img-top"
-                    alt=""
-                  />
-                  <button
-                    class="btn btn-primary position-absolute text-white duration"
-                  >
-                    ▶ 3:21
-                  </button>
-                  <div class="card-body videoclip">
-                    <p class="card-text">
-                      SpaceX's Dragon capsule launches ISS supplies, including
-                      COVID-19...
-                    </p>
-                  </div>
-                </card>
-                <card class="video position-relative col-lg-3 px-0 mx-0">
-                  <div class="img-overlay"></div>
-                  <img
-                    src="./images/Mask Group4.png"
-                    class="card-img-top"
-                    alt=""
-                  />
-                  <button
-                    class="btn btn-primary position-absolute text-white duration"
-                  >
-                    ▶ 3:21
-                  </button>
-                  <div class="card-body videoclip">
-                    <p class="card-text">
-                      How to safely celebrate the holidays this year
-                    </p>
-                  </div>
-                </card>
-                <card class="video position-relative col-lg-3 px-0 mx-0">
-                  <div class="img-overlay"></div>
-                  <img
-                    src="./images/MaskGroup3.png"
-                    class="card-img-top"
-                    alt=""
-                  />
-                  <button
-                    class="btn btn-primary position-absolute text-white duration"
-                  >
-                    ▶ 3:21
-                  </button>
-                  <div class="card-body videoclip">
-                    <p class="card-text">
-                      The 'Selena' cast test their movie and TV Knowledge---
-                      Know Your...
-                    </p>
-                  </div>
-                </card>
+          <div class="videos_container row col-lg-12 d-flex px-0">
+            <card class="video position-relative col-lg-3 px-0 mx-0">
+              <div class="img-overlay"></div>
+              <img src="./images/MaskGroup3.png" class="card-img-top" alt="" />
+              <button
+                class="btn btn-primary position-absolute text-white duration"
+              >
+                ▶ 3:21
+              </button>
+              <div class="card-body videoclip">
+                <p class="card-text">
+                  The 'Selena' cast test their movie and TV Knowledge--- Know
+                  Your...
+                </p>
+              </div>
+            </card>
+            <card class="video position-relative col-lg-3 px-0 mx-0">
+              <div class="img-overlay"></div>
+              <img src="./images/MaskGroup2.png" class="card-img-top" alt="" />
+              <button
+                class="btn btn-primary position-absolute text-white duration"
+              >
+                ▶ 3:21
+              </button>
+              <div class="card-body videoclip">
+                <p class="card-text">
+                  SpaceX's Dragon capsule launches ISS supplies, including
+                  COVID-19...
+                </p>
+              </div>
+            </card>
+            <card class="video position-relative col-lg-3 px-0 mx-0">
+              <div class="img-overlay"></div>
+              <img src="./images/Mask Group4.png" class="card-img-top" alt="" />
+              <button
+                class="btn btn-primary position-absolute text-white duration"
+              >
+                ▶ 3:21
+              </button>
+              <div class="card-body videoclip">
+                <p class="card-text">
+                  How to safely celebrate the holidays this year
+                </p>
+              </div>
+            </card>
+            <card class="video position-relative col-lg-3 px-0 mx-0">
+              <div class="img-overlay"></div>
+              <img src="./images/MaskGroup3.png" class="card-img-top" alt="" />
+              <button
+                class="btn btn-primary position-absolute text-white duration"
+              >
+                ▶ 3:21
+              </button>
+              <div class="card-body videoclip">
+                <p class="card-text">
+                  The 'Selena' cast test their movie and TV Knowledge--- Know
+                  Your...
+                </p>
+              </div>
+            </card>
           </div>
         </div>
       </main>

@@ -2,12 +2,18 @@ span.hamburger_logo {
   display: none;
 }
 
+@media (min-width: 768px) {
+  .nav span.hamburger_logo img {
+    display: none !important;
+  }
+}
+
 @media (max-width: 560px) {
   header .row.secondary-menu.active {
     width: 100% !important;
     max-width: 530px;
   }
-  /* hamburger */
+  /* hamburgerWhite */
   nav .hamburger_logo {
     top: 15px;
     left: 35px;
@@ -22,7 +28,7 @@ span.hamburger_logo {
     font-size: 1.6em !important;
   }
 
-  img#hamburger {
+  img#hamburgerWhite {
     height: 20px;
     margin-top: -10px;
   }

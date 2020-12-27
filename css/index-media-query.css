@@ -135,6 +135,12 @@
     width: 100% !important;
     padding: 10px !important;
   }
+  /* what's hot */
+  main div#pills-whatsnews {
+    width: 100% !important;
+    padding-left: 10px !important;
+  }
+
   /* what's rising */
   main .whats_rising .position-relative,
   main .whats_rising img {
