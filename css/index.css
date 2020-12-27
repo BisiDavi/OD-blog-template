@@ -143,6 +143,23 @@ card.video {
   height: 209.78px;
 }
 
+span#arrowGroup a.bg-white {
+  height: 40px !important;
+  background: #ffffff;
+  border-radius: 5px;
+  width: 40px !important;
+  opacity: 1;
+  color: black;
+}
+
+span#arrowGroup {
+  width: 100px !important;
+  height: 30px !important;
+  top: -100px !important;
+  position: absolute;
+  right: 0px !important;
+}
+
 .videoclip {
   position: absolute;
   bottom: 0px;
@@ -263,7 +280,7 @@ card.video {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 90px;
+  font-size: 80px;
   line-height: 96.4%;
 }
 
@@ -300,7 +317,6 @@ main .row.main_news_content h1.text-center {
 }
 
 /* whats_new */
-
 
 .whats_new img {
   width: 88px !important;

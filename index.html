@@ -65,14 +65,16 @@
           <li onClick="toggleButton()" class="toggle-themes">
             <a href="#togglebutton"
               ><img
-              id="switchButtonWhite"
+                id="switchButtonWhite"
                 src="./images/switch.png"
                 class="theme_switch mx-1"
                 alt="switch mode"
               />
             </a>
           </li>
-          <li class="ml-1 mr-3 dark_mode"><a href="#togglebutton">Dark Mode</a></li>
+          <li class="ml-1 mr-3 dark_mode">
+            <a href="#togglebutton">Dark Mode</a>
+          </li>
           <li>
             <a href="#facebook"><i class="fa fa-facebook"></i></a>
           </li>
@@ -87,18 +89,17 @@
     </header>
     <div id="sidenav" class="sidebar">
       <ul class="menu-links d-flex pl-4">
-          <li class="d-none d-lg-none font-weight-bold site-name">
-            <a href="#OD_Blog">OD Blog</a>
-          </li>
-          <li><a href="#videos">Videos</a></li>
-          <li><a href="#savedpost">Saved Posts</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contribute">Contribute</a></li>
-          </li>
-        </ul>                
+        <li class="d-none d-lg-none font-weight-bold site-name">
+          <a href="#OD_Blog">OD Blog</a>
+        </li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#savedpost">Saved Posts</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contribute"> Contribute</a></li>
+      </ul>
     </div>
-    <div onClick="closeNav()" id="sidebarOverlay" class="sidebar_overlay"></div>         
+    <div onClick="closeNav()" id="sidebarOverlay" class="sidebar_overlay"></div>
     <main id="main" class="page-content">
       <nav
         id="nav"
@@ -107,13 +108,13 @@
         <div
           class="row primary-menu position-relative d-flex bg-white justify-content-between px-5 py-0 w-100"
         >
-        <span class="hamburger_logo position-absolute" onClick="openNav()">
-          <img
-            src="./images/hamburger.png"
-            alt="menu hamburger"
-            id="hamburger"
-            class="hamburger .d-none .d-sm-block .d-md-none "
-          />
+          <span class="hamburger_logo position-absolute" onClick="openNav()">
+            <img
+              src="./images/hamburger.png"
+              alt="menu hamburger"
+              id="hamburger"
+              class="hamburger d-none d-sm-block d-md-none"
+            />
           </span>
           <h1 class="site-title font-weight-bold pl-4 my-0">OD Blog</h1>
           <span class="search"
@@ -130,166 +131,197 @@
               <h1 class="text-white text">2020</h1>
               <p class="px-1">JOHN DOE</p>
             </span>
-            <div id="carouselExampleIndicators" class="carousel slide content-latestnews-group d-flex justify-content-around" data-ride="carousel" data-interval=false>
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide content-latestnews-group d-flex justify-content-around"
+              data-ride="carousel"
+              data-interval="false"
+            >
               <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-              <div class="content-lastest-news d-flex ">
-                <img src="./images/Rectangle6.png" alt="carousel news" />
-                <div class="carousel_news">
-                  <span>
-                    <h4>The 13 horniest TV moment of 2020</h4>
-                    <p>5 min read</p>
-                  </span>
-                  <p>
-                    You don't need us to tell you that 2020 was horny as heck. We
-                    spent months inside without human contact
-                  </p>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="content-lastest-news d-flex">
+                    <img src="./images/Rectangle6.png" alt="carousel news" />
+                    <div class="carousel_news">
+                      <span>
+                        <h4>The 13 horniest TV moment of 2020</h4>
+                        <p>5 min read</p>
+                      </span>
+                      <p>
+                        You don't need us to tell you that 2020 was horny as
+                        heck. We spent months inside without human contact
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content-lastest-news d-flex">
+                    <img src="./images/Rectangle5.png" alt="carousel news" />
+                    <div class="carousel_news">
+                      <span>
+                        <h4>
+                          'Cyberpunk 2077' is a wondrous creation trailed by a
+                          mil-long..
+                        </h4>
+                        <p>8 min read</p>
+                      </span>
+                      <p>
+                        You don't need us to tell you that 2020 was horny as
+                        heck. We spent months inside without human contact
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content-lastest-news d-flex">
+                    <img src="./images/Rectangle7.png" alt="carousel news" />
+                    <div class="carousel_news">
+                      <span>
+                        <h4>
+                          Taylor Swift just dropped a banger remix of 'willow'
+                          for h...
+                        </h4>
+                        <p>6 min read</p>
+                      </span>
+                      <p>
+                        You don't need us to tell you that 2020 was horny as
+                        heck. We spent months inside without human contact
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="content-lastest-news d-flex ">
-                <img src="./images/Rectangle5.png" alt="carousel news" />
-                <div class="carousel_news">
-                  <span>
-                    <h4>
-                      'Cyberpunk 2077' is a wondrous creation trailed by a
-                      mil-long..
-                    </h4>
-                    <p>8 min read</p>
-                  </span>
-                  <p>
-                    You don't need us to tell you that 2020 was horny as heck. We
-                    spent months inside without human contact
-                  </p>
+                <div class="carousel-item">
+                  <div class="content-lastest-news d-flex">
+                    <img src="./images/Rectangle6.png" alt="carousel news" />
+                    <div class="carousel_news">
+                      <span>
+                        <h4>The 13 horniest TV moment of 2020</h4>
+                        <p>5 min read</p>
+                      </span>
+                      <p>
+                        You don't need us to tell you that 2020 was horny as
+                        heck. We spent months inside without human contact
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content-lastest-news d-flex">
+                    <img src="./images/Rectangle5.png" alt="carousel news" />
+                    <div class="carousel_news">
+                      <span>
+                        <h4>
+                          'Cyberpunk 2077' is a wondrous creation trailed by a
+                          mil-long..
+                        </h4>
+                        <p>8 min read</p>
+                      </span>
+                      <p>
+                        You don't need us to tell you that 2020 was horny as
+                        heck. We spent months inside without human contact
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content-lastest-news d-flex">
+                    <img src="./images/Rectangle7.png" alt="carousel news" />
+                    <div class="carousel_news">
+                      <span>
+                        <h4>
+                          Taylor Swift just dropped a banger remix of 'willow'
+                          for h...
+                        </h4>
+                        <p>6 min read</p>
+                      </span>
+                      <p>
+                        You don't need us to tell you that 2020 was horny as
+                        heck. We spent months inside without human contact
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="content-lastest-news d-flex ">
-                <img src="./images/Rectangle7.png" alt="carousel news" />
-                <div class="carousel_news">
-                  <span>
-                    <h4>
-                      Taylor Swift just dropped a banger remix of 'willow' for
-                      h...
-                    </h4>
-                    <p>6 min read</p>
-                  </span>
-                  <p>
-                    You don't need us to tell you that 2020 was horny as heck. We
-                    spent months inside without human contact
-                  </p>
+                <div class="carousel-item">
+                  <div class="content-lastest-news d-flex">
+                    <img src="./images/Rectangle6.png" alt="carousel news" />
+                    <div class="carousel_news">
+                      <span>
+                        <h4>The 13 horniest TV moment of 2020</h4>
+                        <p>5 min read</p>
+                      </span>
+                      <p>
+                        You don't need us to tell you that 2020 was horny as
+                        heck. We spent months inside without human contact
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content-lastest-news d-flex">
+                    <img src="./images/Rectangle5.png" alt="carousel news" />
+                    <div class="carousel_news">
+                      <span>
+                        <h4>
+                          'Cyberpunk 2077' is a wondrous creation trailed by a
+                          mil-long..
+                        </h4>
+                        <p>8 min read</p>
+                      </span>
+                      <p>
+                        You don't need us to tell you that 2020 was horny as
+                        heck. We spent months inside without human contact
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content-lastest-news d-flex">
+                    <img src="./images/Rectangle7.png" alt="carousel news" />
+                    <div class="carousel_news">
+                      <span>
+                        <h4>
+                          Taylor Swift just dropped a banger remix of 'willow'
+                          for h...
+                        </h4>
+                        <p>6 min read</p>
+                      </span>
+                      <p>
+                        You don't need us to tell you that 2020 was horny as
+                        heck. We spent months inside without human contact
+                      </p>
+                    </div>
+                  </div>
                 </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
-            </div>
-    <div class="carousel-item">
-              <div class="content-lastest-news d-flex ">
-                <img src="./images/Rectangle6.png" alt="carousel news" />
-                <div class="carousel_news">
-                  <span>
-                    <h4>The 13 horniest TV moment of 2020</h4>
-                    <p>5 min read</p>
-                  </span>
-                  <p>
-                    You don't need us to tell you that 2020 was horny as heck. We
-                    spent months inside without human contact
-                  </p>
-                </div>
-              </div>
-              <div class="content-lastest-news d-flex ">
-                <img src="./images/Rectangle5.png" alt="carousel news" />
-                <div class="carousel_news">
-                  <span>
-                    <h4>
-                      'Cyberpunk 2077' is a wondrous creation trailed by a
-                      mil-long..
-                    </h4>
-                    <p>8 min read</p>
-                  </span>
-                  <p>
-                    You don't need us to tell you that 2020 was horny as heck. We
-                    spent months inside without human contact
-                  </p>
-                </div>
-              </div>
-              <div class="content-lastest-news d-flex ">
-                <img src="./images/Rectangle7.png" alt="carousel news" />
-                <div class="carousel_news">
-                  <span>
-                    <h4>
-                      Taylor Swift just dropped a banger remix of 'willow' for
-                      h...
-                    </h4>
-                    <p>6 min read</p>
-                  </span>
-                  <p>
-                    You don't need us to tell you that 2020 was horny as heck. We
-                    spent months inside without human contact
-                  </p>
-                </div>
-              </div>
-            </div>
-    <div class="carousel-item">
-              <div class="content-lastest-news d-flex ">
-                <img src="./images/Rectangle6.png" alt="carousel news" />
-                <div class="carousel_news">
-                  <span>
-                    <h4>The 13 horniest TV moment of 2020</h4>
-                    <p>5 min read</p>
-                  </span>
-                  <p>
-                    You don't need us to tell you that 2020 was horny as heck. We
-                    spent months inside without human contact
-                  </p>
-                </div>
-              </div>
-              <div class="content-lastest-news d-flex ">
-                <img src="./images/Rectangle5.png" alt="carousel news" />
-                <div class="carousel_news">
-                  <span>
-                    <h4>
-                      'Cyberpunk 2077' is a wondrous creation trailed by a
-                      mil-long..
-                    </h4>
-                    <p>8 min read</p>
-                  </span>
-                  <p>
-                    You don't need us to tell you that 2020 was horny as heck. We
-                    spent months inside without human contact
-                  </p>
-                </div>
-              </div>
-              <div class="content-lastest-news d-flex ">
-                <img src="./images/Rectangle7.png" alt="carousel news" />
-                <div class="carousel_news">
-                  <span>
-                    <h4>
-                      Taylor Swift just dropped a banger remix of 'willow' for
-                      h...
-                    </h4>
-                    <p>6 min read</p>
-                  </span>
-                  <p>
-                    You don't need us to tell you that 2020 was horny as heck. We
-                    spent months inside without human contact
-                  </p>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-            </div>
             </div>
           </div>
-        </div>       
+        </div>
       </div>
 
       <div class="mx-auto ads"></div>
@@ -377,8 +409,8 @@
                 </div>
                 <div class="title d-flex flex-column mb-1">
                   <h5>
-                    5 behind-the-scenes revelations from the 'FUN RUN' episode of
-                    'The Office'
+                    5 behind-the-scenes revelations from the 'FUN RUN' episode
+                    of 'The Office'
                   </h5>
                   <span class="author d-flex">
                     <p class="text-muted">
@@ -422,7 +454,8 @@
                 </div>
                 <div class="title d-flex flex-column mb-1">
                   <h5>
-                    Uber adds option to send packages just in time for the holiday
+                    Uber adds option to send packages just in time for the
+                    holiday
                   </h5>
                   <span class="author d-flex">
                     <p class="text-muted">
@@ -462,8 +495,8 @@
                 </div>
                 <div class="title d-flex flex-column mb-1">
                   <h5>
-                    5 behind-the-scenes revelations from the 'FUN RUN' episode of
-                    'The Office'
+                    5 behind-the-scenes revelations from the 'FUN RUN' episode
+                    of 'The Office'
                   </h5>
                   <span class="author d-flex">
                     <p class="text-muted">
@@ -507,7 +540,8 @@
                 </div>
                 <div class="title d-flex flex-column mb-1">
                   <h5>
-                    Uber adds option to send packages just in time for the holiday
+                    Uber adds option to send packages just in time for the
+                    holiday
                   </h5>
                   <span class="author d-flex">
                     <p class="text-muted">
@@ -547,8 +581,8 @@
                 </div>
                 <div class="title d-flex flex-column mb-1">
                   <h5>
-                    5 behind-the-scenes revelations from the 'FUN RUN' episode of
-                    'The Office'
+                    5 behind-the-scenes revelations from the 'FUN RUN' episode
+                    of 'The Office'
                   </h5>
                   <span class="author d-flex">
                     <p class="text-muted">
@@ -592,7 +626,8 @@
                 </div>
                 <div class="title d-flex flex-column mb-1">
                   <h5>
-                    Uber adds option to send packages just in time for the holiday
+                    Uber adds option to send packages just in time for the
+                    holiday
                   </h5>
                   <span class="author d-flex">
                     <p class="text-muted">
@@ -632,8 +667,8 @@
                 </div>
                 <div class="title d-flex flex-column mb-1">
                   <h5>
-                    5 behind-the-scenes revelations from the 'FUN RUN' episode of
-                    'The Office'
+                    5 behind-the-scenes revelations from the 'FUN RUN' episode
+                    of 'The Office'
                   </h5>
                   <span class="author d-flex">
                     <p class="text-muted">
@@ -677,7 +712,8 @@
                 </div>
                 <div class="title d-flex flex-column mb-1">
                   <h5>
-                    Uber adds option to send packages just in time for the holiday
+                    Uber adds option to send packages just in time for the
+                    holiday
                   </h5>
                   <span class="author d-flex">
                     <p class="text-muted">
@@ -730,8 +766,8 @@
                 </div>
                 <span class="title d-flex flex-column">
                   <p>
-                    New Star Wars shows and movies deliver more mystery that fans
-                    can handle
+                    New Star Wars shows and movies deliver more mystery that
+                    fans can handle
                   </p>
                   <span class="author d-flex">
                     <p class="text-muted">
@@ -847,8 +883,8 @@
                 </div>
                 <span class="title d-flex flex-column">
                   <p>
-                    Republicans and Democrats actually agree on something:Breaking
-                    up Facebook
+                    Republicans and Democrats actually agree on
+                    something:Breaking up Facebook
                   </p>
                   <span class="author d-flex">
                     <p class="text-muted">
@@ -922,7 +958,8 @@
                 <h5>Apple now sells yoga mats and bike helmets</h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -944,7 +981,8 @@
                 </h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -965,7 +1003,8 @@
                 </h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -986,7 +1025,8 @@
                 </h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1003,7 +1043,8 @@
                 <h5>Apple now sells yoga mats and bike helmets</h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1025,7 +1066,8 @@
                 </h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1046,7 +1088,8 @@
                 </h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1067,7 +1110,8 @@
                 </h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1084,7 +1128,8 @@
                 <h5>Apple now sells yoga mats and bike helmets</h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1106,7 +1151,8 @@
                 </h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1127,7 +1173,8 @@
                 </h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1148,7 +1195,8 @@
                 </h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1165,7 +1213,8 @@
                 <h5>Apple now sells yoga mats and bike helmets</h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1187,7 +1236,8 @@
                 </h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1208,7 +1258,8 @@
                 </h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1229,7 +1280,8 @@
                 </h5>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1251,12 +1303,13 @@
               </div>
               <span class="title d-flex flex-column">
                 <p>
-                  Marvel announces four new Disney+ series including 'I Am Groot'
-                  and 'Secret Invasion'
+                  Marvel announces four new Disney+ series including 'I Am
+                  Groot' and 'Secret Invasion'
                 </p>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </span>
@@ -1278,7 +1331,8 @@
                 </p>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </span>
@@ -1297,7 +1351,8 @@
                 <p>5G is getting faster, but the U.S. is lagging behind</p>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </span>
@@ -1314,11 +1369,13 @@
               </div>
               <span class="title d-flex flex-column">
                 <p>
-                  Hackers are targeting kindergartens for profit, warns government
+                  Hackers are targeting kindergartens for profit, warns
+                  government
                 </p>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </span>
@@ -1335,12 +1392,13 @@
               </div>
               <span class="title d-flex flex-column">
                 <p>
-                  Facebook illegally maintains a monopoly and a breakup is on the
-                  table, says FTC lawsuit
+                  Facebook illegally maintains a monopoly and a breakup is on
+                  the table, says FTC lawsuit
                 </p>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </span>
@@ -1364,7 +1422,8 @@
                 <p>Marvel's Fantastic Four are coming to film again</p>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </span>
@@ -1386,7 +1445,8 @@
                 </p>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </span>
@@ -1402,10 +1462,13 @@
                 </button>
               </div>
               <span class="title d-flex flex-column">
-                <p>The good, bad, and ugly from the UN's stark climate report</p>
+                <p>
+                  The good, bad, and ugly from the UN's stark climate report
+                </p>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </span>
@@ -1427,7 +1490,8 @@
                 </p>
                 <span class="author d-flex">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </span>
@@ -1435,89 +1499,318 @@
           </div>
         </div>
         <div class="row load_more my-5">
-          <button id="loadMore" class="btn btn-dark text-white mx-auto d-flex px-5 rounded-0">
+          <button
+            id="loadMore"
+            class="btn btn-dark text-white mx-auto d-flex px-5 rounded-0"
+          >
             Load more
           </button>
         </div>
-        <div class="row videos mb-5 d-flex">
+        <div id="showOnLarge" class="row videos  mb-5 d-flex">
           <div class="title d-flex justify-content-between col-lg-12">
             <span class="d-flex my-2 video_viewall">
-              <h4 class="font-weight-bold">VIDEOS</h4>
+              <h4 class="font-weight-bold video-text">VIDEOS</h4>
               <p class="text-primary ml-2 mt-1 font-weight-bold">VIEW ALL</p>
             </span>
             <span id="arrowGroup" class="arrow-group controls d-flex my-2">
-              <div class="arrow-left  mx-1">
+              <a
+                class="carousel-control-prev arrow-left mx-1 bg-white"
+                href="#videoCarouselIndicator"
+                role="button"
+                data-slide="prev"
+              >
                 <i class="fa fa-arrow-left p-2"></i>
-              </div>
-              <div class="arrow-right  mx-1">
+              </a>
+              <a
+                class="carousel-control-next arrow-right mx-1 bg-white"
+                href="#videoCarouselIndicator"
+                role="button"
+                data-slide="next"
+              >
                 <i class="fa fa-arrow-right p-2"></i>
-              </div>
+              </a>
             </span>
           </div>
-          <div class="videos_container row col-lg-12 d-flex px-0">
-            <card class="video position-relative col-lg-3 px-0 mx-0">
-              <div class="img-overlay"></div>
-              <img src="./images/MaskGroup3.png" class="card-img-top" alt="" />
-              <button
-                class="btn btn-primary position-absolute text-white duration"
-              >
-                ▶ 3:21
-              </button>
-              <div class="card-body videoclip">
-                <p class="card-text">
-                  The 'Selena' cast test their movie and TV Knowledge--- Know
-                  Your...
-                </p>
+          <div
+            id="videoCarouselIndicator"
+            class="carousel slide videos_container row col-lg-12 d-flex px-0"
+            data-interval="false"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#videoCarouselIndicator"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#videoCarouselIndicator" data-slide-to="1"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="video card-group carousel-item active">
+                <card class="video position-relative col-lg-3 px-0 mx-0">
+                  <div class="img-overlay"></div>
+                  <img
+                    src="./images/MaskGroup3.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <button
+                    class="btn btn-primary position-absolute text-white duration"
+                  >
+                    ▶ 3:21
+                  </button>
+                  <div class="card-body videoclip">
+                    <p class="card-text">
+                      The 'Selena' cast test their movie and TV Knowledge---
+                      Know Your...
+                    </p>
+                  </div>
+                </card>
+                <card class="video position-relative col-lg-3 px-0 mx-0">
+                  <div class="img-overlay"></div>
+                  <img
+                    src="./images/MaskGroup2.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <button
+                    class="btn btn-primary position-absolute text-white duration"
+                  >
+                    ▶ 3:21
+                  </button>
+                  <div class="card-body videoclip">
+                    <p class="card-text">
+                      SpaceX's Dragon capsule launches ISS supplies, including
+                      COVID-19...
+                    </p>
+                  </div>
+                </card>
+                <card class="video position-relative col-lg-3 px-0 mx-0">
+                  <div class="img-overlay"></div>
+                  <img
+                    src="./images/Mask Group4.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <button
+                    class="btn btn-primary position-absolute text-white duration"
+                  >
+                    ▶ 3:21
+                  </button>
+                  <div class="card-body videoclip">
+                    <p class="card-text">
+                      How to safely celebrate the holidays this year
+                    </p>
+                  </div>
+                </card>
+                <card class="video position-relative col-lg-3 px-0 mx-0">
+                  <div class="img-overlay"></div>
+                  <img
+                    src="./images/MaskGroup3.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <button
+                    class="btn btn-primary position-absolute text-white duration"
+                  >
+                    ▶ 3:21
+                  </button>
+                  <div class="card-body videoclip">
+                    <p class="card-text">
+                      The 'Selena' cast test their movie and TV Knowledge---
+                      Know Your...
+                    </p>
+                  </div>
+                </card>
               </div>
-            </card>
-            <card class="video position-relative col-lg-3 px-0 mx-0">
-              <div class="img-overlay"></div>
-              <img src="./images/MaskGroup2.png" class="card-img-top" alt="" />
-              <button
-                class="btn btn-primary position-absolute text-white duration"
-              >
-                ▶ 3:21
-              </button>
-              <div class="card-body videoclip">
-                <p class="card-text">
-                  SpaceX's Dragon capsule launches ISS supplies, including
-                  COVID-19...
-                </p>
+              <div class="video card-group carousel-item">
+                <card class="video position-relative col-lg-3 px-0 mx-0">
+                  <div class="img-overlay"></div>
+                  <img
+                    src="./images/MaskGroup3.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <button
+                    class="btn btn-primary position-absolute text-white duration"
+                  >
+                    ▶ 3:21
+                  </button>
+                  <div class="card-body videoclip">
+                    <p class="card-text">
+                      The 'Selena' cast test their movie and TV Knowledge---
+                      Know Your...
+                    </p>
+                  </div>
+                </card>
+                <card class="video position-relative col-lg-3 px-0 mx-0">
+                  <div class="img-overlay"></div>
+                  <img
+                    src="./images/MaskGroup2.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <button
+                    class="btn btn-primary position-absolute text-white duration"
+                  >
+                    ▶ 3:21
+                  </button>
+                  <div class="card-body videoclip">
+                    <p class="card-text">
+                      SpaceX's Dragon capsule launches ISS supplies, including
+                      COVID-19...
+                    </p>
+                  </div>
+                </card>
+                <card class="video position-relative col-lg-3 px-0 mx-0">
+                  <div class="img-overlay"></div>
+                  <img
+                    src="./images/Mask Group4.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <button
+                    class="btn btn-primary position-absolute text-white duration"
+                  >
+                    ▶ 3:21
+                  </button>
+                  <div class="card-body videoclip">
+                    <p class="card-text">
+                      How to safely celebrate the holidays this year
+                    </p>
+                  </div>
+                </card>
+                <card class="video position-relative col-lg-3 px-0 mx-0">
+                  <div class="img-overlay"></div>
+                  <img
+                    src="./images/MaskGroup3.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <button
+                    class="btn btn-primary position-absolute text-white duration"
+                  >
+                    ▶ 3:21
+                  </button>
+                  <div class="card-body videoclip">
+                    <p class="card-text">
+                      The 'Selena' cast test their movie and TV Knowledge---
+                      Know Your...
+                    </p>
+                  </div>
+                </card>
               </div>
-            </card>
-            <card class="video position-relative col-lg-3 px-0 mx-0">
-              <div class="img-overlay"></div>
-              <img src="./images/Mask Group4.png" class="card-img-top" alt="" />
-              <button
-                class="btn btn-primary position-absolute text-white duration"
+            </div>
+          </div>
+        </div>
+        <div id="showOnMobile" class="row videos  mb-5 d-flex">
+          <div class="title d-flex justify-content-between col-lg-12">
+            <span class="d-flex my-2 video_viewall">
+              <h4 class="font-weight-bold video-text">VIDEOS</h4>
+              <p class="text-primary ml-2 mt-1 font-weight-bold">VIEW ALL</p>
+            </span>
+            <span id="arrowGroup" class="arrow-group controls d-flex my-2">
+              <a
+                class="carousel-control-prev arrow-left mx-1 bg-white"
+                href="#videoCarouselIndicator"
+                role="button"
+                data-slide="prev"
               >
-                ▶ 3:21
-              </button>
-              <div class="card-body videoclip">
-                <p class="card-text">
-                  How to safely celebrate the holidays this year
-                </p>
-              </div>
-            </card>
-            <card class="video position-relative col-lg-3 px-0 mx-0">
-              <div class="img-overlay"></div>
-              <img src="./images/MaskGroup3.png" class="card-img-top" alt="" />
-              <button
-                class="btn btn-primary position-absolute text-white duration"
+                <i class="fa fa-arrow-left p-2"></i>
+              </a>
+              <a
+                class="carousel-control-next arrow-right mx-1 bg-white"
+                href="#videoCarouselIndicator"
+                role="button"
+                data-slide="next"
               >
-                ▶ 3:21
-              </button>
-              <div class="card-body videoclip">
-                <p class="card-text">
-                  The 'Selena' cast test their movie and TV Knowledge--- Know
-                  Your...
-                </p>
-              </div>
-            </card>
+                <i class="fa fa-arrow-right p-2"></i>
+              </a>
+            </span>
+          </div>
+          <div            
+            class="videos_container row col-lg-12 d-flex px-0"                        
+          >           
+                <card class="video position-relative col-lg-3 px-0 mx-0">
+                  <div class="img-overlay"></div>
+                  <img
+                    src="./images/MaskGroup3.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <button
+                    class="btn btn-primary position-absolute text-white duration"
+                  >
+                    ▶ 3:21
+                  </button>
+                  <div class="card-body videoclip">
+                    <p class="card-text">
+                      The 'Selena' cast test their movie and TV Knowledge---
+                      Know Your...
+                    </p>
+                  </div>
+                </card>
+                <card class="video position-relative col-lg-3 px-0 mx-0">
+                  <div class="img-overlay"></div>
+                  <img
+                    src="./images/MaskGroup2.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <button
+                    class="btn btn-primary position-absolute text-white duration"
+                  >
+                    ▶ 3:21
+                  </button>
+                  <div class="card-body videoclip">
+                    <p class="card-text">
+                      SpaceX's Dragon capsule launches ISS supplies, including
+                      COVID-19...
+                    </p>
+                  </div>
+                </card>
+                <card class="video position-relative col-lg-3 px-0 mx-0">
+                  <div class="img-overlay"></div>
+                  <img
+                    src="./images/Mask Group4.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <button
+                    class="btn btn-primary position-absolute text-white duration"
+                  >
+                    ▶ 3:21
+                  </button>
+                  <div class="card-body videoclip">
+                    <p class="card-text">
+                      How to safely celebrate the holidays this year
+                    </p>
+                  </div>
+                </card>
+                <card class="video position-relative col-lg-3 px-0 mx-0">
+                  <div class="img-overlay"></div>
+                  <img
+                    src="./images/MaskGroup3.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <button
+                    class="btn btn-primary position-absolute text-white duration"
+                  >
+                    ▶ 3:21
+                  </button>
+                  <div class="card-body videoclip">
+                    <p class="card-text">
+                      The 'Selena' cast test their movie and TV Knowledge---
+                      Know Your...
+                    </p>
+                  </div>
+                </card>
           </div>
         </div>
       </main>
-      
+
       <footer class="footer container-fluid p-5">
         <div class="row">
           <div class="col-lg-3 d-flex flex-column blog">
@@ -1526,7 +1819,10 @@
             <span class="social_icons d-flex mt-2">
               <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
               <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-              <i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i>
+              <i
+                class="fa fa-google-plus-official fa-2x"
+                aria-hidden="true"
+              ></i>
               <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
             </span>
           </div>
@@ -1550,7 +1846,8 @@
                 </p>
                 <span class="author d-flex mt-4">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1563,7 +1860,8 @@
                 </p>
                 <span class="author d-flex mt-4">
                   <p class="text-muted">
-                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+                    BY <span class="text-primary">JOHN DOE</span> - JAN. 01,
+                    2021
                   </p>
                 </span>
               </div>
@@ -1592,7 +1890,7 @@
         </div>
       </footer>
     </main>
-    
+
     <script
       type="text/javascript"
       src="https://code.jquery.com/jquery-1.11.0.min.js"
@@ -1600,7 +1898,7 @@
     <script
       type="text/javascript"
       src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>    
+    ></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

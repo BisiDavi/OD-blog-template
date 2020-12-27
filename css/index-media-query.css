@@ -481,6 +481,11 @@
     height: 190px !important;
     width: 250px !important;
   }
+
+  div#videoCarouselIndicator {
+    height: 220px !important;
+  }
+
   card.video {
     cursor: pointer;
     max-width: 265px !important;
