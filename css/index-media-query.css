@@ -23,10 +23,6 @@
     width: 350px !important;
   }
 
-  #main div#pills-whatsnews {
-    width: 320px !important;
-  }
-
   #mainHeader a {
     font-size: 11px;
   }
@@ -75,17 +71,9 @@
   main#article-section .bg-white {
     padding-top: 0px !important;
     margin: 0px;
-    margin-bottom: 30px !important;
-    width: 100% !important;
-  }
-
-  #main main#article-section .section_majornews .bg-white {
-    padding-top: 0px !important;
-    margin-left: 0 !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 35px !important;
+    height: 390px !important;
     width: 280px !important;
-    border-radius: 10px !important;
-    height: 375px !important;
   }
 
   div#mobileTab {
@@ -156,37 +144,28 @@
   }
 
   main .section_majornews img,
-  main .whats_hot .hot_news .position-relative {
+  main .section_majornews .position-relative {
     width: 280px !important;
     height: 200px !important;
     align-items: normal;
     border-radius: 10px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
   }
 
-  main#main main .whats_hot .hot_news,
-  main#main main .whats_rising .news_1 {
+  main .whats_hot .hot_news,
+  main .whats_rising .news_1 {
     height: 380px !important;
     margin-bottom: 20px !important;
     align-items: normal;
   }
 
- main#main  main .whats_hot .hot_news p,
-   main .whats_rising .news_1 .title p {
+  main .whats_hot .hot_news p,
+  main .whats_rising .news_1 .title p {
     font-size: 16px !important;
-    line-height: 30px;
-    margin-bottom: 10px !important;
   }
 
- main#main  main .news_1 p.text-muted,
- main#main  main .whats_hot span.author  .hot_news p.text-muted {
+  main .news_1 p.text-muted,
+  main .whats_hot .hot_news p.text-muted {
     font-size: 12px !important;
-  }
-
-  main#main main .video p.card-text {
-    font-size: 1em !important;
-    line-height: 25px;
   }
 }
 
@@ -256,7 +235,7 @@
     margin-top: -2px !important;
   }
   .main-text h1.text-white {
-    font-size: 35px !important;
+    font-size: 50px !important;
     line-height: 130%;
   }
 
@@ -268,15 +247,11 @@
   }
 
   /* main */
-  main.container-fluid {
+  main.newsArticles {
     padding: 0px !important;
     overflow-x: hidden !important;
     width: 515px !important;
     background-color: white !important;
-  }
-
-  div#pills-whatsnews {
-    width: 500px !important;
   }
 
   main .row.main_news_content .bg-white {
@@ -289,25 +264,8 @@
     display: none;
   }
 
-  .hot_news img {
-    height: 300px !important;
-    width: 450px !important;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-
-  .whats_hot .hot_news .position-relative {
-    height: 300px !important;
-    width: 450px !important;
-}
-
-  main#article-section .section_majornews .bg-white {
-    padding-top: 0px !important;
-    display: flex;
-    margin: 20px auto !important;
-    width: 450px !important;
-    border-radius: 10px !important;
-    height: 500px !important;
+  div#pills-tabContent {
+    width: 100% !important;
   }
 
   /* whats rising */
@@ -322,11 +280,8 @@
     font-size: 14px !important;
   }
 
-  .section_majornews .news_1 button {
-    left: 30px !important;
-  }
-  main .section_majornews .title p {
-    font-size: 18px !important;
+  main .whats_rising .title p {
+    font-size: 25px !important;
     line-height: 30px;
     margin-bottom: 40px;
   }
@@ -345,12 +300,21 @@
   }
 
   /* whats hot */
-
+  .hot_news img {
+    height: 300px !important;
+    width: 450px !important;
+  }
   .whats_hot .hot_news {
     height: 540px;
     display: flex;
     align-items: center;
     width: 500px;
+  }
+
+  #mobileTab.mobile .whats_new {
+    background-color: white !important;
+    padding: 10px 20px !important;
+    max-width: 500px !important;
   }
 
   div#pills-whatshot {
@@ -373,10 +337,7 @@
   .videos .title {
     margin: 0px 25px;
   }
-  .video p.card-text {
-    font-size: 1.4em !important;
-    line-height: 25px;
-  }
+
   .row.videos.d-flex {
     width: 510px !important;
     padding: 0px !important;
@@ -416,8 +377,8 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 42px;
+    font-size: 1em;
+    line-height: 24px;
     text-align: center;
     letter-spacing: -0.05em;
   }
@@ -431,7 +392,10 @@
     height: 40px !important;
     padding: 0px;
   }
-
+  div#pills-whatsnews {
+    width: 90%;
+    padding-left: 12px !important;
+  }
   ul#pills-tab {
     display: flex;
     justify-content: space-between;
@@ -498,5 +462,34 @@
 @media (min-width: 768px) {
   div#pills-whatsnews {
     display: none !important;
+  }
+
+  .whats_new {
+    background-color: white !important;
+    padding: 10px 0px !important;
+    max-width: 350px !important;
+  }
+
+  .hot_news img,
+  .whats_hot .hot_news .position-relative {
+    width: 430px !important;
+    height: 260px !important;
+  }
+
+  .whats_rising .news_1 img,
+  .whats_rising .news_1 .position-relative {
+    height: 190px !important;
+    width: 250px !important;
+  }
+  card.video {
+    cursor: pointer;
+    max-width: 265px !important;
+    margin: 10px !important;
+    height: 200px;
+  }
+  card.video .img-overlay,
+  card.video img {
+    height: 100% !important;
+    width: 100%;
   }
 }
