@@ -284,7 +284,7 @@ card.video {
 }
 
 main .row.main_news_content .bg-white {
-  height: 2040px !important;
+  height: auto !important;
 }
 
 main .row.main_news_content h1.text-center {
