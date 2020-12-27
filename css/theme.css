@@ -12,7 +12,8 @@ nav#nav.darkMode h1 {
 /* main */
 main.darkMode .bg-white p,
 main.darkMode .bg-white h1,
-main.darkMode .bg-white h5 {
+main.darkMode .bg-white h5,
+main#article-section.darkMode .bg-white-card h5 {
   color: white !important;
 }
 
@@ -30,7 +31,8 @@ main#main.page-content.darkMode {
 
 /* mobile media-query */
 @media (max-width: 768px) {
-  main#article-section.darkMode {
+  main#article-section.darkMode,
+  main#article-section.darkMode .bg-white-card {
     background-color: #1b2c3a !important;
     margin-top: -10px;
   }
