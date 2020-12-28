@@ -98,6 +98,16 @@
     margin: auto !important;
   }
 
+  .videoSlide ul.slick-dots {
+    display: none !important;
+  }
+
+  .videoSlide card.video button.btn {
+    width: 66px;
+    height: 36px;
+    padding: 0px;
+  }
+
   a.carousel-control-prev,
   a.carousel-control-next {
     height: 40px !important;
