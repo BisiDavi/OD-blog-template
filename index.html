@@ -38,15 +38,15 @@
     />
     <link
       rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.0/slick-theme.min.css"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-      crossorigin="anonymous"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/theme.css" />
@@ -138,36 +138,32 @@
         <div class="carousel carousel-1 position-relative">
           <div class="overlay"></div>
           <div class="carousel_articles">
-            <div class="carousel_content">
-              <span class="main-text">
-                <h1 class="text-white">Best game of</h1>
-                <h1 class="text-white text">2020</h1>
-                <p class="px-1">JOHN DOE</p>
-              </span>
-              <div
-                id="carouselExampleIndicators"
-                class="carousel slide content-latestnews-group d-flex justify-content-around"
-                data-ride="carousel"
-                data-interval="false"
-              >
-                <ol class="carousel-indicators">
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="1"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="2"
-                  ></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="content-lastest-news d-flex">
+            <span class="main-text">
+              <h1 class="text-white">Best game of</h1>
+              <h1 class="text-white text">2020</h1>
+              <p class="px-1">JOHN DOE</p>
+            </span>
+            <div class="carouselControl owl-nav">
+              <div class="owl-prev prevButton btn" role="button">
+                <img
+                  src="./images/arrowLeftIcon.svg"
+                  alt="left arrow"
+                  class="arrowLeft"
+                />
+              </div>
+              <div class="owl-next nextButton btn" role="button">
+                <img
+                  src="./images/arrowRightIcon.svg"
+                  alt="next"
+                  class="arrowRight"
+                />
+              </div>
+            </div>
+            <div id="articleSlider" class="content-latestnews-group d-flex">
+              <div class="owl-carousel owl-theme owl-loaded">
+                <div class="owl-stage-outer">
+                  <div class="owl-stage">
+                    <div class="owl-item content-lastest-news d-flex">
                       <img src="./images/Rectangle6.png" alt="carousel news" />
                       <div class="carousel_news">
                         <span>
@@ -180,7 +176,7 @@
                         </p>
                       </div>
                     </div>
-                    <div class="content-lastest-news d-flex">
+                    <div class="owl-item content-lastest-news d-flex">
                       <img src="./images/Rectangle5.png" alt="carousel news" />
                       <div class="carousel_news">
                         <span>
@@ -196,7 +192,7 @@
                         </p>
                       </div>
                     </div>
-                    <div class="content-lastest-news d-flex">
+                    <div class="owl-item content-lastest-news d-flex">
                       <img src="./images/Rectangle7.png" alt="carousel news" />
                       <div class="carousel_news">
                         <span>
@@ -212,22 +208,7 @@
                         </p>
                       </div>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="content-lastest-news d-flex">
-                      <img src="./images/Rectangle6.png" alt="carousel news" />
-                      <div class="carousel_news">
-                        <span>
-                          <h4>The 13 horniest TV moment of 2020</h4>
-                          <p>5 min read</p>
-                        </span>
-                        <p>
-                          You don't need us to tell you that 2020 was horny as
-                          heck. We spent months inside without human contact
-                        </p>
-                      </div>
-                    </div>
-                    <div class="content-lastest-news d-flex">
+                    <div class="owl-item content-lastest-news d-flex">
                       <img src="./images/Rectangle5.png" alt="carousel news" />
                       <div class="carousel_news">
                         <span>
@@ -243,25 +224,7 @@
                         </p>
                       </div>
                     </div>
-                    <div class="content-lastest-news d-flex">
-                      <img src="./images/Rectangle7.png" alt="carousel news" />
-                      <div class="carousel_news">
-                        <span>
-                          <h4>
-                            Taylor Swift just dropped a banger remix of 'willow'
-                            for h...
-                          </h4>
-                          <p>6 min read</p>
-                        </span>
-                        <p>
-                          You don't need us to tell you that 2020 was horny as
-                          heck. We spent months inside without human contact
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="content-lastest-news d-flex">
+                    <div class="owl-item content-lastest-news d-flex">
                       <img src="./images/Rectangle6.png" alt="carousel news" />
                       <div class="carousel_news">
                         <span>
@@ -274,63 +237,7 @@
                         </p>
                       </div>
                     </div>
-                    <div class="content-lastest-news d-flex">
-                      <img src="./images/Rectangle5.png" alt="carousel news" />
-                      <div class="carousel_news">
-                        <span>
-                          <h4>
-                            'Cyberpunk 2077' is a wondrous creation trailed by a
-                            mil-long..
-                          </h4>
-                          <p>8 min read</p>
-                        </span>
-                        <p>
-                          You don't need us to tell you that 2020 was horny as
-                          heck. We spent months inside without human contact
-                        </p>
-                      </div>
-                    </div>
-                    <div class="content-lastest-news d-flex">
-                      <img src="./images/Rectangle7.png" alt="carousel news" />
-                      <div class="carousel_news">
-                        <span>
-                          <h4>
-                            Taylor Swift just dropped a banger remix of 'willow'
-                            for h...
-                          </h4>
-                          <p>6 min read</p>
-                        </span>
-                        <p>
-                          You don't need us to tell you that 2020 was horny as
-                          heck. We spent months inside without human contact
-                        </p>
-                      </div>
-                    </div>
                   </div>
-                  <a
-                    class="carousel-control-prev"
-                    href="#carouselExampleIndicators"
-                    role="button"
-                    data-slide="prev"
-                  >
-                    <img
-                      src="./images/arrowLeftIcon.svg"
-                      alt="left arrow"
-                      class="arrowLeft"
-                    />
-                  </a>
-                  <a
-                    class="carousel-control-next"
-                    href="#carouselExampleIndicators"
-                    role="button"
-                    data-slide="next"
-                  >
-                    <img
-                      src="./images/arrowRightIcon.svg"
-                      alt="next"
-                      class="arrowRight"
-                    />
-                  </a>
                 </div>
               </div>
             </div>
@@ -1528,10 +1435,10 @@
             </span>
             <span id="arrowGroup" class="arrow-group controls d-flex my-2">
               <a class="prevArrowLeft mx-1 bg-white" role="button">
-                <i class="fa fa-arrow-left p-2"></i>
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
               </a>
               <a class="nextArrowRight mx-1 bg-white" role="button">
-                <i class="fa fa-arrow-right p-2"></i>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
               </a>
             </span>
           </div>
@@ -1797,11 +1704,6 @@
       src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
     ></script>
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"
@@ -1811,12 +1713,14 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/nav.js" type="text/javascript"></script>
-    <script src="./js/themes.js" type="text/javascript"></script>
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/nav.js" type="text/javascript"></script>
+    <script src="./js/themes.js" type="text/javascript"></script>
+    <script src="./js/slider.js"></script>
     <script src="./js/videoCarousel.js"></script>
   </body>
 </html>
