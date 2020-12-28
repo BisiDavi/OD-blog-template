@@ -125,9 +125,28 @@
     flex-direction: column;
   }
   span#arrowGroup {
-    top: 0px !important;
+    display: none !important;
   }
   #showOnLarge {
     display: none !important;
+  }
+
+  #articleSlider .btn {
+    display: none !important;
+  }
+
+  .carouselControl {
+    display: none !important;
+  }
+
+  #main .carousel_articles {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+  }
+
+  main#main .carousel_articles .main-text h1 {
+    font-size: 40px !important;
+    line-height: 50px;
   }
 }
