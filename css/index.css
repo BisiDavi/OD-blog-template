@@ -514,10 +514,14 @@ footer.footer {
 }
 
 .footer_news .rounded-circle {
-  width: 200px !important;
-  height: 100px;
-  background-color: white !important;
-  margin: auto;
+    width: 88px !important;
+    height: 88px;
+    background-color: white !important;
+    border-radius: 50% !important;
+    margin: auto;
+}
+footer .footer_news .col-lg-4{
+  padding: 0px !important;
 }
 
 .footer_news .news_text {
