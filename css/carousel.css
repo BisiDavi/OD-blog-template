@@ -73,6 +73,11 @@
     width: 400px;
   }
 
+  .videoSlide.card-group.slick-initialized.slick-slider.slick-dotted {
+    width: inherit !important;
+    margin: auto !important;    
+}
+
   a.carousel-control-prev,
   a.carousel-control-next {
     height: 40px !important;

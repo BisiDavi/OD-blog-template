@@ -155,7 +155,7 @@ span#arrowGroup a.bg-white {
 span#arrowGroup {
   width: 100px !important;
   height: 30px !important;
-  top: -100px !important;
+  top: 0px !important;
   position: absolute;
   right: 0px !important;
 }
@@ -195,13 +195,14 @@ span#arrowGroup {
   margin-top: 10px !important;
 }
 
-img.arrowLeft, img.arrowRight {
-    height: 30px;
-    width: 30px;
-    padding: 7px;
-    border-radius: 50px;
-    background: rgba(255, 255, 255, 0.3);
-    opacity: 1;
+img.arrowLeft,
+img.arrowRight {
+  height: 30px;
+  width: 30px;
+  padding: 7px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.3);
+  opacity: 1;
 }
 
 .carousel-1 {
