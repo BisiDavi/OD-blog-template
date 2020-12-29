@@ -38,6 +38,14 @@ main#main.darkMode {
     background: #21374b !important;
     margin: 20px auto !important;
   }
+  div#sidenav.darkMode,
+  #sidenav.darkMode ul {
+    background: #1b2c3a !important;
+  }
+  div#sidenav.darkMode ul.menu-links li a {
+    color: white !important;
+    opacity: 1;
+  }
 }
 
 /* button */

@@ -15,6 +15,7 @@ const toggleButton = () => {
       document.getElementById('loadMore').classList.add('darkMode');
       document.getElementById('arrowGroup').classList.add('darkMode');
       document.getElementById('mobileTab').classList.add('darkMode');
+      document.getElementById('sidenav').classList.add('darkMode');
       document.getElementById('footerForm').classList.add('darkMode');
       break;
     case false:
@@ -26,6 +27,7 @@ const toggleButton = () => {
       document.getElementById('loadMore').classList.remove('darkMode');
       document.getElementById('arrowGroup').classList.remove('darkMode');
       document.getElementById('mobileTab').classList.remove('darkMode');
+      document.getElementById('sidenav').classList.remove('darkMode');
       document.getElementById('footerForm').classList.remove('darkMode');
       break;
   }
