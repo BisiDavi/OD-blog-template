@@ -472,6 +472,14 @@
   .hideme_mobile {
     display: none;
   }
+
+  #main {
+    width: 100% !important;
+  }
+
+  /* main#main {
+    overflow-x: hidden;
+  } */
 }
 
 @media (min-width: 768px) {

@@ -43,6 +43,7 @@ header {
   position: fixed;
   top: 0px;
   z-index: 1000;
+  background-color: black;
 }
 
 header .menu-links a {
@@ -514,13 +515,13 @@ footer.footer {
 }
 
 .footer_news .rounded-circle {
-    width: 88px !important;
-    height: 88px;
-    background-color: white !important;
-    border-radius: 50% !important;
-    margin: auto;
+  width: 88px !important;
+  height: 88px;
+  background-color: white !important;
+  border-radius: 50% !important;
+  margin: auto;
 }
-footer .footer_news .col-lg-4{
+footer .footer_news .col-lg-4 {
   padding: 0px !important;
 }
 
