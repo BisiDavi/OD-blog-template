@@ -1,6 +1,6 @@
 let appTheme = {
   theme: false,
-  THEME_STATE: true
+  THEME_STATE: null
 };
 
 const darkModeTheme = () => {
